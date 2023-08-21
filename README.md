@@ -11,10 +11,13 @@ Our primary aim is to provide a convenient platform for discovering these datase
 + NIH/NLM, Clinical trials, [link](https://classic.clinicaltrials.gov/AllPublicXML.zip), [info](https://classic.clinicaltrials.gov/ct2/resources/download)
 + FDA, all things but including drug adverse events [link](https://open.fda.gov/data/downloads/)
 + CMS, Open Payments [link](https://www.cms.gov/OpenPayments/Data/Dataset-Downloads)
++ USPTO, patents and trademarks https://www.uspto.gov/learning-and-resources/bulk-data-products
++ NOAA Climate and Weather links (so many) https://www.ncei.noaa.gov/weather-climate-links
++ NASA NEO observations https://neo.gsfc.nasa.gov/about/bulk.php
 
 ## Project Listing
 
 | Agency | Title | Homepage |
 | ----- | ---- | ---- |
-| National Institutes of Health (NIH) | National Institutes of Health (NIH) Grant Funding | [:house:](https://reporter.nih.gov/exporter) 
-| Centers for Disease Control and Prevention (CDC) | COVID-19 Case Surveillance Public Use Data with Geography | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) 
+| NIH | ExPORTER: NIH Grant funding | [:house:](https://reporter.nih.gov/exporter) 
+| CDC | COVID-19 Case Surveillance Public Use Data with Geography | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) 

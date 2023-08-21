@@ -4,6 +4,10 @@ import pandas as pd
 
 F_YAML = Path("data").glob("*.yaml")
 
+df_agency = pd.read_csv("data/acronyms/agency.csv")
+df_department = pd.read_csv("data/acronyms/departments.csv")
+print(df_agency)
+
 split_key = "## Project Listing"
 with open("README.md") as FIN:
     readme_text = FIN.read()

@@ -1,203 +1,203 @@
-abbreviation,name,department
-AMS,Agricultural Marketing Service,USDA
-APHIS,Animal and Plant Health Inspection Service,USDA
-ARS,Agricultural Research Service,USDA
-CNPP,Center for Nutrition Policy and Promotion,USDA
-ERS,Economic Research Service,USDA
-FAS,Foreign Agricultural Service,USDA
-FNS,Food and Nutrition Service,USDA
-FS,Forest Service,USDA
-FSA,Farm Service Agency,USDA
-FSIS,Food Safety and Inspection Service,USDA
-NASS,National Agricultural Statistics Service,USDA
-NIFA,National Institute of Food and Agriculture,USDA
-NRCS,Natural Resources Conservation Service,USDA
-RBS,Rural Business-Cooperative Service,USDA
-RHS,Rural Housing Service,USDA
-RMA,Risk Management Agency,USDA
-RUS,Rural Utilities Service,USDA
-BEA,Bureau of Economic Analysis,DOC
-BIS,Bureau of Industry and Security,DOC
-EDA,Economic Development Administration,DOC
-ESA,Economics and Statistics Administration,DOC
-ITA,International Trade Administration,DOC
-MBDA,Minority Business Development Agency,DOC
-NESDIS,"National Environmental Satellite, Data and Information Service",DOC
-NIST,National Institute of Standards and Technology,DOC
-NMFS,National Marine Fisheries Service,DOC
-NOAA,National Oceanic and Atmospheric Administration,DOC
-NOS,National Ocean Service,DOC
-NTIA,National Telecommunications and Information Administration,DOC
-NTIS,National Technical Information Service,DOC
-NWS,National Weather Service,DOC
-USPTO,U.S. Patent and Trademark Office,DOC
-BUMED,Bureau of Medicine and Surgery,DOD
-CNR,Chief of Navy Reserve,DOD
-DARPA,Defense Advanced Research Projects Agency,DOD
-DAU,Defense Acquisition University,DOD
-DCAA,Defense Contract Audit Agency,DOD
-DCMA,Defense Contract Management Agency,DOD
-DeCA,Defense Commissary Agency,DOD
-DFAS,Defense Finance and Accounting Service,DOD
-DHA,Defense Health Agency,DOD
-DHRA,Defense Human Resources Activity,DOD
-DIA,Defense Intelligence Agency,DOD
-DISA,Defense Information Systems Agency,DOD
-DLA,Defense Logistics Agency,DOD
-DLSA,Defense Legal Services Agency,DOD
-DMA,Defense Media Activity,DOD
-DMEA,Defense Microelectronics Activity,DOD
-DODEA,Department of Defense Education Activity,DOD
-DSCA,Defense Security Cooperation Agency,DOD
-DSS,Defense Security Service,DOD
-DTRA,Defense Threat Reduction Agency,DOD
-DTSA,Defense Technology Security Administration,DOD
-JCS,Joint Chiefs of Staff,DOD
-MDA,Missile Defense Agency,DOD
-NGA,National Geospatial-Intelligence Agency,DOD
-NGB,National Guard Bureau,DOD
-NRO,National Reconnaissance Office,DOD
-NSA/CSS,National Security Agency/Central Security Service,DOD
-OSD,Office of the Secretary of Defense,DOD
-PFPA,Pentagon Force Protection Agency,DOD
-WHS,Washington Headquarters Services,DOD
-FSA,Office of Federal Student Aid,ED
-IES,Institute of Education Sciences,ED
-OCTAE,"Office of Career, Technical, and Adult Education",ED
-OELA,Office of English Language Acquisition,ED
-OESE,Office of Elementary and Secondary Education,ED
-OII,Office of Innovation and Improvement,ED
-OPE,Office of Postsecondary Education,ED
-OSERS,Office of Special Education and Rehabilitative Services,ED
-AITO,Artificial Intelligence and Technology Office,DOE
-ARPA-E,Advanced Research Projects Agency – Energy,DOE
-CI,Office of Congressional and Intergovernmental Affairs,DOE
-EERE,Assistant Secretary for Energy Efficiency and Renewable Energy,DOE
-EIA,U.S. Energy Information Administration,DOE
-EM,Assistant Secretary for Environmental Management,DOE
-FERC,Federal Energy Regulatory Commission,DOE
-NNSA,National Nuclear Security Administration,DOE
-OICI,Office of Intelligence and Counterintelligence,DOE
-OSDBU,Office of Small and Disadvantaged Business Utilization,DOE
-ACF,Administration for Children and Families,HHS
-ACL,Administration for Community Living,HHS
-ACYF,"Administration on Children, Youth and Families",HHS
-AHRQ,Agency for Healthcare Research and Quality,HHS
-AIDD,Administration on Intellectual and Developmental Disabilities,HHS
-ANA,Administration for Native Americans,HHS
-AoA,Administration on Aging,HHS
-ASA,Office of the Assistant Secretary for Administration,HHS
-ASFR,Office of the Assistant Secretary for Financial Resources,HHS
-ASL,Office of the Assistant Secretary for Legislation,HHS
-ASPA,Office of the Assistant Secretary for Public Affairs,HHS
-ASPE,Office of the Assistant Secretary for Planning and Evaluation,HHS
-ASPR,Office of the Assistant Secretary for Preparedness and Response,HHS
-CDC,Centers for Disease Control and Prevention,HHS
-CMS,Centers for Medicare and Medicaid Services,HHS
-DAB,Departmental Appeals Board,HHS
-FDA,Food and Drug Administration,HHS
-HRSA,Health Resources and Services Administration,HHS
-IHS,Indian Health Service,HHS
-NIH,National Institutes of Health,HHS
-NITAAC,NIH Information Technology Acquisition and Assessment Center,HHS
-OASH,Office of the Assistant Secretary for Health,HHS
-OMHA,Office of Medicare Hearings and Appeals,HHS
-ONC,Office of the National Coordinator for Health Information Technology,HHS
-ORR,Office of Refugee Resettlement,HHS
-SAMHSA,Substance Abuse and Mental Health Services Administration,HHS
-CBP,United States Customs and Border Protection,DHS
-CISA,Cybersecurity and Infrastructure Security Agency,DHS
-FEMA,Federal Emergency Management Agency,DHS
-FLETC,Federal Law Enforcement Training Center,DHS
-ICE,United States Immigration and Customs Enforcement,DHS
-TSA,Transportation Security Administration,DHS
-USCG,United States Coast Guard,DHS
-USCIS,United States Citizenship and Immigration Services,DHS
-USSS,United States Secret Service,DHS
-CPD,Assistant Secretary for Community Planning and Development,HUD
-FHA,Assistant Secretary for Housing - Federal Housing Administration,HUD
-FHEO,Assistant Secretary for Fair Housing and Equal Opportunity,HUD
-Ginnie Mae,Government National Mortgage Association,HUD
-OHHLHC,Office of Healthy Homes and Lead Hazard Control,HUD
-PD&R,Assistant Secretary for Policy Development and Research,HUD
-PIH,Assistant Secretary for Public and Indian Housing,HUD
-BIA,Bureau of Indian Affairs,DOI
-BIE,Bureau of Indian Education,DOI
-BLM,Bureau of Land Management,DOI
-BOEM,Bureau Ocean Energy Management,DOI
-BSEE,Bureau of Safety and Environmental Enforcement,DOI
-FWS,United States Fish and Wildlife Service,DOI
-NPS,National Park Service,DOI
-OSMRE,Office of Surface Mining Reclamation and Enforcement,DOI
-USBR,Bureau of Reclamation,DOI
-USGS,United States Geological Survey,DOI
-ATF,"Bureau of Alcohol, Tobacco, Firearms and Explosives",DOJ
-BOP,Federal Bureau of Prisons,DOJ
-DEA,Drug Enforcement Administration,DOJ
-EOIR,Executive Office for Immigration Review,DOJ
-EOUSA,Executive Office for United States Attorneys,DOJ
-FBI,Federal Bureau of Investigation,DOJ
-OPA,Office of the Pardon Attorney,DOJ
-USMS,United States Marshals Service,DOJ
-USPC,United States Parole Commission,DOJ
-BLS,Bureau of Labor Statistics,DOL
-EBSA,Employee Benefits Security Administration,DOL
-ETA,Employment and Training Administration,DOL
-ILAB,Bureau of International Labor Affairs,DOL
-MSHA,Mine Safety and Health Administration,DOL
-OSHA,Occupational Safety and Health Administration,DOL
-VETS,Veterans' Employment and Training Service,DOL
-WB,Women's Bureau,DOL
-A,Bureau of Administration,DOS
-AF,Bureau of African Affairs,DOS
-AVC,"Bureau of Arms Control, Verification, and Compliance",DOS
-BP,Bureau of Budget and Planning,DOS
-CA,Bureau of Consular Affairs,DOS
-DRL,"Bureau of Democracy, Human Rights and Labor",DOS
-DS,Bureau of Diplomatic Security,DOS
-EAP,Bureau of East Asian and Pacific Affairs,DOS
-EB,Bureau of Economic and Business Affairs,DOS
-ECA,Bureau of Educational and Cultural Affairs,DOS
-ENR,Bureau of Energy Resources,DOS
-EUR,Bureau of European and Eurasian Affairs,DOS
-FSI,Foreign Service Institute,DOS
-HR,Bureau of Human Resources,DOS
-IIP,Bureau of International Information Programs,DOS
-INL,Bureau for International Narcotics and Law Enforcement Affairs,DOS
-INR,Bureau of Intelligence and Research,DOS
-IO,Bureau of International Organization Affairs,DOS
-IRM,Bureau of Information Resource Management,DOS
-ISN,Bureau of International Security and Nonproliferation,DOS
-MED,Bureau of Medical Services,DOS
-NEA,Bureau of Near Eastern Affairs,DOS
-OBO,Bureau of Overseas Buildings Operations,DOS
-OES,Bureau of Oceans and International Environmental and Scientific Affairs,DOS
-PA,Bureau of Public Affairs,DOS
-PM,Bureau of Political-Military Affairs,DOS
-PRM,"Bureau of Population, Refugees and Migration",DOS
-SCA,Bureau of South and Central Asian Affairs,DOS
-WHA,Bureau of Western Hemisphere Affairs,DOS
-BTS,Bureau of Transportation Statistics,DOT
-FAA,Federal Aviation Administration,DOT
-FHWA,Federal Highway Administration,DOT
-FMCSA,Federal Motor Carrier Safety Administration,DOT
-FRA,Federal Railroad Administration,DOT
-FTA,Federal Transit Administration,DOT
-MARAD,Maritime Administration,DOT
-NHTSA,National Highway Traffic Safety Administration,DOT
-OST-R,Office of the Assistant Secretary for Research and Technology,DOT
-PHMSA,Pipeline and Hazardous Materials Safety Administration,DOT
-SLSDC,Saint Lawrence Seaway Development Corporation,DOT
-STB,Surface Transportation Board,DOT
-BEP,Bureau of Engraving and Printing,TREAS
-BFS,Bureau of the Fiscal Service,TREAS
-IRS,Internal Revenue Service,TREAS
-OCC,Office of the Comptroller of the Currency,TREAS
-SIGPR,Office of the Special Inspector General for Pandemic Recovery,TREAS
-SIGTARP,Office of the Special Inspector General for the Troubled Asset Relief Program,TREAS
-TIGTA,Treasury Inspector General for Tax Administration,TREAS
-TTB,Alcohol and Tobacco Tax and Trade Bureau,TREAS
-NCA,National Cemetery Administration,VA
-OSDBU,Office of Small and Disadvantaged Business Utilization,VA
-VBA,Veterans Benefits Administration,VA
-VHA,Veterans Health Administration,VA
+abbreviation,name,department,homepage
+AMS,Agricultural Marketing Service,USDA,https://www.ams.usda.gov/
+APHIS,Animal and Plant Health Inspection Service,USDA,https://www.aphis.usda.gov/
+ARS,Agricultural Research Service,USDA,https://www.ars.usda.gov/
+CNPP,Center for Nutrition Policy and Promotion,USDA,https://www.cnpp.usda.gov/
+ERS,Economic Research Service,USDA,https://www.ers.usda.gov/
+FAS,Foreign Agricultural Service,USDA,https://www.fas.usda.gov/
+FNS,Food and Nutrition Service,USDA,https://www.fns.usda.gov/
+FS,Forest Service,USDA,https://www.fs.usda.gov/
+FSA,Farm Service Agency,USDA,https://www.fsa.usda.gov/
+FSIS,Food Safety and Inspection Service,USDA,https://www.fsis.usda.gov/
+NASS,National Agricultural Statistics Service,USDA,https://www.nass.usda.gov/
+NIFA,National Institute of Food and Agriculture,USDA,https://nifa.usda.gov/
+NRCS,Natural Resources Conservation Service,USDA,https://www.nrcs.usda.gov/
+RBS,Rural Business-Cooperative Service,USDA,https://www.rd.usda.gov/
+RHS,Rural Housing Service,USDA,https://www.rd.usda.gov/
+RMA,Risk Management Agency,USDA,https://www.rma.usda.gov/
+RUS,Rural Utilities Service,USDA,https://www.rd.usda.gov/
+BEA,Bureau of Economic Analysis,DOC,https://www.bea.gov/
+BIS,Bureau of Industry and Security,DOC,https://www.bis.doc.gov/
+EDA,Economic Development Administration,DOC,https://www.eda.gov/
+ESA,Economics and Statistics Administration,DOC,https://www.esa.doc.gov/
+ITA,International Trade Administration,DOC,https://www.trade.gov/
+MBDA,Minority Business Development Agency,DOC,https://www.mbda.gov/
+NESDIS,"National Environmental Satellite, Data and Information Service",DOC,https://www.nesdis.noaa.gov/
+NIST,National Institute of Standards and Technology,DOC,https://www.nist.gov/
+NMFS,National Marine Fisheries Service,DOC,https://www.fisheries.noaa.gov/
+NOAA,National Oceanic and Atmospheric Administration,DOC,https://www.noaa.gov/
+NOS,National Ocean Service,DOC,https://oceanservice.noaa.gov/
+NTIA,National Telecommunications and Information Administration,DOC,https://www.ntia.gov/
+NTIS,National Technical Information Service,DOC,https://www.ntis.gov/
+NWS,National Weather Service,DOC,https://www.weather.gov/
+USPTO,U.S. Patent and Trademark Office,DOC,https://www.uspto.gov/
+BUMED,Bureau of Medicine and Surgery,DOD,https://www.med.navy.mil/
+CNR,Chief of Navy Reserve,DOD,https://www.navyreserve.navy.mil/
+DARPA,Defense Advanced Research Projects Agency,DOD,https://www.darpa.mil/
+DAU,Defense Acquisition University,DOD,https://www.dau.edu/
+DCAA,Defense Contract Audit Agency,DOD,https://www.dcaa.mil/
+DCMA,Defense Contract Management Agency,DOD,https://www.dcma.mil/
+DeCA,Defense Commissary Agency,DOD,https://www.commissaries.com/
+DFAS,Defense Finance and Accounting Service,DOD,https://www.dfas.mil/
+DHA,Defense Health Agency,DOD,https://www.health.mil/DHA
+DHRA,Defense Human Resources Activity,DOD,https://www.dhra.mil/
+DIA,Defense Intelligence Agency,DOD,https://www.dia.mil/
+DISA,Defense Information Systems Agency,DOD,https://www.disa.mil/
+DLA,Defense Logistics Agency,DOD,https://www.dla.mil/
+DLSA,Defense Legal Services Agency,DOD,https://www.usa.gov/agencies/defense-legal-services-agency
+DMA,Defense Media Activity,DOD,https://www.dma.mil/
+DMEA,Defense Microelectronics Activity,DOD,https://www.dmea.osd.mil/
+DODEA,Department of Defense Education Activity,DOD,https://www.dodea.edu/
+DSCA,Defense Security Cooperation Agency,DOD,https://www.dsca.mil/
+DSS,Defense Security Service,DOD,https://www.cisa.gov/defense-counterintelligence-and-security-agency
+DTRA,Defense Threat Reduction Agency,DOD,https://www.dtra.mil/
+DTSA,Defense Technology Security Administration,DOD,https://www.dtsa.mil/
+JCS,Joint Chiefs of Staff,DOD,https://www.jcs.mil/
+MDA,Missile Defense Agency,DOD,https://www.mda.mil/
+NGA,National Geospatial-Intelligence Agency,DOD,https://www.nga.mil/
+NGB,National Guard Bureau,DOD,https://www.nationalguard.mil/
+NRO,National Reconnaissance Office,DOD,https://www.nro.gov/
+NSA/CSS,National Security Agency/Central Security Service,DOD,https://www.nsa.gov/
+OSD,Office of the Secretary of Defense,DOD,https://www.defense.gov/
+PFPA,Pentagon Force Protection Agency,DOD,https://www.pfpa.mil/
+WHS,Washington Headquarters Services,DOD,https://www.whs.mil/
+FSA,Office of Federal Student Aid,ED,https://studentaid.gov
+IES,Institute of Education Sciences,ED,https://ies.ed.gov
+OCTAE,"Office of Career, Technical, and Adult Education",ED,https://www2.ed.gov/about/offices/list/ovae/index.html
+OELA,Office of English Language Acquisition,ED,https://www2.ed.gov/about/offices/list/oela/index.html
+OESE,Office of Elementary and Secondary Education,ED,https://www2.ed.gov/about/offices/list/oese/index.html
+OII,Office of Innovation and Improvement,ED,https://www2.ed.gov/about/offices/list/oii/index.html
+OPE,Office of Postsecondary Education,ED,https://www2.ed.gov/about/offices/list/ope/index.html
+OSERS,Office of Special Education and Rehabilitative Services,ED,https://www2.ed.gov/about/offices/list/osers/index.html
+AITO,Artificial Intelligence and Technology Office,DOE,https://www.energy.gov/aito/artificial-intelligence-and-technology-office
+ARPA-E,Advanced Research Projects Agency – Energy,DOE,https://arpa-e.energy.gov/
+CI,Office of Congressional and Intergovernmental Affairs,DOE,https://www.energy.gov/ig/congressional-and-intergovernmental-affairs
+EERE,Assistant Secretary for Energy Efficiency and Renewable Energy,DOE,https://www.energy.gov/eere/office-energy-efficiency-renewable-energy
+EIA,U.S. Energy Information Administration,DOE,https://www.eia.gov/
+EM,Assistant Secretary for Environmental Management,DOE,https://www.energy.gov/em/office-environmental-management
+FERC,Federal Energy Regulatory Commission,DOE,https://www.ferc.gov/
+NNSA,National Nuclear Security Administration,DOE,https://www.energy.gov/nnsa/national-nuclear-security-administration
+OICI,Office of Intelligence and Counterintelligence,DOE,https://www.energy.gov/office-intelligence-and-counterintelligence
+OSDBU,Office of Small and Disadvantaged Business Utilization,DOE,https://www.energy.gov/osdbu/office-small-and-disadvantaged-business-utilization
+ACF,Administration for Children and Families,HHS,https://www.acf.hhs.gov/
+ACL,Administration for Community Living,HHS,https://acl.gov/
+ACYF,"Administration on Children, Youth and Families",HHS,https://www.acf.hhs.gov/acyf
+AHRQ,Agency for Healthcare Research and Quality,HHS,https://www.ahrq.gov/
+AIDD,Administration on Intellectual and Developmental Disabilities,HHS,https://acl.gov/about-acl/administration-intellectual-and-developmental-disabilities
+ANA,Administration for Native Americans,HHS,https://www.acf.hhs.gov/ana
+AoA,Administration on Aging,HHS,https://acl.gov/about-acl/administration-aging
+ASA,Office of the Assistant Secretary for Administration,HHS,https://www.hhs.gov/about/agencies/asa/index.html
+ASFR,Office of the Assistant Secretary for Financial Resources,HHS,https://www.hhs.gov/about/agencies/asfr/index.html
+ASL,Office of the Assistant Secretary for Legislation,HHS,https://www.hhs.gov/about/agencies/asl/about-asl/index.html
+ASPA,Office of the Assistant Secretary for Public Affairs,HHS,https://www.hhs.gov/about/news/aspa/index.html
+ASPE,Office of the Assistant Secretary for Planning and Evaluation,HHS,https://aspe.hhs.gov/
+ASPR,Office of the Assistant Secretary for Preparedness and Response,HHS,https://www.phe.gov/about/aspr/Pages/default.aspx
+CDC,Centers for Disease Control and Prevention,HHS,https://www.cdc.gov/
+CMS,Centers for Medicare and Medicaid Services,HHS,https://www.cms.gov/
+DAB,Departmental Appeals Board,HHS,https://www.hhs.gov/about/agencies/dab/index.html
+FDA,Food and Drug Administration,HHS,https://www.fda.gov/
+HRSA,Health Resources and Services Administration,HHS,https://www.hrsa.gov/
+IHS,Indian Health Service,HHS,https://www.ihs.gov/
+NIH,National Institutes of Health,HHS,https://www.nih.gov/
+NITAAC,NIH Information Technology Acquisition and Assessment Center,HHS,https://nitaac.nih.gov/
+OASH,Office of the Assistant Secretary for Health,HHS,https://www.hhs.gov/ash/index.html
+OMHA,Office of Medicare Hearings and Appeals,HHS,https://www.hhs.gov/about/agencies/omha/index.html
+ONC,Office of the National Coordinator for Health Information Technology,HHS,https://www.healthit.gov/
+ORR,Office of Refugee Resettlement,HHS,https://www.acf.hhs.gov/orr
+SAMHSA,Substance Abuse and Mental Health Services Administration,HHS,https://www.samhsa.gov/
+CBP,United States Customs and Border Protection,DHS,https://www.cbp.gov/
+CISA,Cybersecurity and Infrastructure Security Agency,DHS,https://www.cisa.gov/
+FEMA,Federal Emergency Management Agency,DHS,https://www.fema.gov/
+FLETC,Federal Law Enforcement Training Center,DHS,https://www.fletc.gov/
+ICE,United States Immigration and Customs Enforcement,DHS,https://www.ice.gov/
+TSA,Transportation Security Administration,DHS,https://www.tsa.gov/
+USCG,United States Coast Guard,DHS,https://www.uscg.mil/
+USCIS,United States Citizenship and Immigration Services,DHS,https://www.uscis.gov/
+USSS,United States Secret Service,DHS,https://www.secretservice.gov/
+CPD,Assistant Secretary for Community Planning and Development,HUD,https://www.hud.gov/cpd
+FHA,Assistant Secretary for Housing - Federal Housing Administration,HUD,https://www.hud.gov/fha
+FHEO,Assistant Secretary for Fair Housing and Equal Opportunity,HUD,https://www.hud.gov/fheo
+Ginnie Mae,Government National Mortgage Association,HUD,https://www.ginniemae.gov/
+OHHLHC,Office of Healthy Homes and Lead Hazard Control,HUD,https://www.hud.gov/lead
+PD&R,Assistant Secretary for Policy Development and Research,HUD,https://www.huduser.gov/
+PIH,Assistant Secretary for Public and Indian Housing,HUD,https://www.hud.gov/pih
+BIA,Bureau of Indian Affairs,DOI,https://www.bia.gov/
+BIE,Bureau of Indian Education,DOI,https://www.bie.edu/
+BLM,Bureau of Land Management,DOI,https://www.blm.gov/
+BOEM,Bureau Ocean Energy Management,DOI,https://www.boem.gov/
+BSEE,Bureau of Safety and Environmental Enforcement,DOI,https://www.bsee.gov/
+FWS,United States Fish and Wildlife Service,DOI,https://www.fws.gov/
+NPS,National Park Service,DOI,https://www.nps.gov/
+OSMRE,Office of Surface Mining Reclamation and Enforcement,DOI,https://www.osmre.gov/
+USBR,Bureau of Reclamation,DOI,https://www.usbr.gov/
+USGS,United States Geological Survey,DOI,https://www.usgs.gov/
+ATF,"Bureau of Alcohol, Tobacco, Firearms and Explosives",DOJ,https://www.atf.gov/
+BOP,Federal Bureau of Prisons,DOJ,https://www.bop.gov/
+DEA,Drug Enforcement Administration,DOJ,https://www.dea.gov/
+EOIR,Executive Office for Immigration Review,DOJ,https://www.justice.gov/eoir
+EOUSA,Executive Office for United States Attorneys,DOJ,https://www.justice.gov/usao
+FBI,Federal Bureau of Investigation,DOJ,https://www.fbi.gov/
+OPA,Office of the Pardon Attorney,DOJ,https://www.justice.gov/pardon
+USMS,United States Marshals Service,DOJ,https://www.usmarshals.gov/
+USPC,United States Parole Commission,DOJ,https://www.justice.gov/uspc
+BLS,Bureau of Labor Statistics,DOL,https://www.bls.gov/
+EBSA,Employee Benefits Security Administration,DOL,https://www.dol.gov/agencies/ebsa
+ETA,Employment and Training Administration,DOL,https://www.doleta.gov/
+ILAB,Bureau of International Labor Affairs,DOL,https://www.dol.gov/agencies/ilab
+MSHA,Mine Safety and Health Administration,DOL,https://www.msha.gov/
+OSHA,Occupational Safety and Health Administration,DOL,https://www.osha.gov/
+VETS,Veterans' Employment and Training Service,DOL,https://www.dol.gov/agencies/vets
+WB,Women's Bureau,DOL,https://www.dol.gov/agencies/wb
+A,Bureau of Administration,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-administration/
+AF,Bureau of African Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-african-affairs/
+AVC,"Bureau of Arms Control, Verification, and Compliance",DOS,https://www.state.gov/bureaus-offices/under-secretary-for-arms-control-and-international-security-affairs/bureau-of-arms-control-verification-and-compliance/
+BP,Bureau of Budget and Planning,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-budget-and-planning/
+CA,Bureau of Consular Affairs,DOS,https://travel.state.gov/
+DRL,"Bureau of Democracy, Human Rights and Labor",DOS,https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/
+DS,Bureau of Diplomatic Security,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-diplomatic-security/
+EAP,Bureau of East Asian and Pacific Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-east-asian-and-pacific-affairs/
+EB,Bureau of Economic and Business Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-economic-growth-energy-and-the-environment/bureau-of-economic-and-business-affairs/
+ECA,Bureau of Educational and Cultural Affairs,DOS,https://eca.state.gov/
+ENR,Bureau of Energy Resources,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-economic-growth-energy-and-the-environment/bureau-of-energy-resources/
+EUR,Bureau of European and Eurasian Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-european-and-eurasian-affairs/
+FSI,Foreign Service Institute,DOS,https://www.state.gov/institutes/fsi/
+HR,Bureau of Human Resources,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-human-resources/
+IIP,Bureau of International Information Programs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy-and-public-affairs/bureau-of-international-information-programs/
+INL,Bureau for International Narcotics and Law Enforcement Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-international-narcotics-and-law-enforcement-affairs/
+INR,Bureau of Intelligence and Research,DOS,https://www.state.gov/bureaus-offices/office-of-the-secretary-of-state/bureau-of-intelligence-and-research/
+IO,Bureau of International Organization Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-international-organization-affairs/
+IRM,Bureau of Information Resource Management,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-information-resource-management/
+ISN,Bureau of International Security and Nonproliferation,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-arms-control-and-international-security-affairs/bureau-of-international-security-and-nonproliferation/
+MED,Bureau of Medical Services,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-medical-services/
+NEA,Bureau of Near Eastern Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-near-eastern-affairs/
+OBO,Bureau of Overseas Buildings Operations,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-overseas-buildings-operations/
+OES,Bureau of Oceans and International Environmental and Scientific Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-economic-growth-energy-and-the-environment/bureau-of-oceans-and-international-environmental-and-scientific-affairs/
+PA,Bureau of Public Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy-and-public-affairs/bureau-of-public-affairs/
+PM,Bureau of Political-Military Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-arms-control-and-international-security-affairs/bureau-of-political-military-affairs/
+PRM,"Bureau of Population, Refugees and Migration",DOS,https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-population-refugees-and-migration/
+SCA,Bureau of South and Central Asian Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/
+WHA,Bureau of Western Hemisphere Affairs,DOS,https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/
+BTS,Bureau of Transportation Statistics,DOT,https://www.bts.gov/
+FAA,Federal Aviation Administration,DOT,https://www.faa.gov/
+FHWA,Federal Highway Administration,DOT,https://www.fhwa.dot.gov/
+FMCSA,Federal Motor Carrier Safety Administration,DOT,https://www.fmcsa.dot.gov/
+FRA,Federal Railroad Administration,DOT,https://www.fra.dot.gov/
+FTA,Federal Transit Administration,DOT,https://www.transit.dot.gov/
+MARAD,Maritime Administration,DOT,https://www.marad.dot.gov/
+NHTSA,National Highway Traffic Safety Administration,DOT,https://www.nhtsa.gov/
+OST-R,Office of the Assistant Secretary for Research and Technology,DOT,https://www.transportation.gov/office-policy/office-assistant-secretary-research-and-technology
+PHMSA,Pipeline and Hazardous Materials Safety Administration,DOT,https://www.phmsa.dot.gov/
+SLSDC,Saint Lawrence Seaway Development Corporation,DOT,https://www.seaway.dot.gov/
+STB,Surface Transportation Board,DOT,https://www.stb.gov/
+BEP,Bureau of Engraving and Printing,TREAS,https://www.moneyfactory.gov
+BFS,Bureau of the Fiscal Service,TREAS,https://www.fiscal.treasury.gov/
+IRS,Internal Revenue Service,TREAS,https://www.irs.gov/
+OCC,Office of the Comptroller of the Currency,TREAS,https://www.occ.treas.gov/
+SIGPR,Office of the Special Inspector General for Pandemic Recovery,TREAS,https://www.sigpr.gov/
+SIGTARP,Office of the Special Inspector General for the Troubled Asset Relief Program,TREAS,https://www.sigtarp.gov/
+TIGTA,Treasury Inspector General for Tax Administration,TREAS,https://www.treasury.gov/tigta/
+TTB,Alcohol and Tobacco Tax and Trade Bureau,TREAS,https://www.ttb.gov/
+NCA,National Cemetery Administration,VA,https://www.cem.va.gov/
+OSDBU,Office of Small and Disadvantaged Business Utilization,VA,https://www.va.gov/OSDBU/
+VBA,Veterans Benefits Administration,VA,https://www.benefits.va.gov/benefits/
+VHA,Veterans Health Administration,VA,https://www.va.gov/health/

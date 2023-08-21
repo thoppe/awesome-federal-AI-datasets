@@ -1,16 +1,16 @@
-abbreviation,name
-DHS,United States Department of Homeland Security
-DOC,United States Department of Commerce
-DOD,United States Department of Defense
-DOE,United States Department of Energy
-DOI,United States Department of the Interior
-DOJ,United States Department of Justice
-DOL,United States Department of Labor
-DOS,United States Department of State
-DOT,United States Department of Transportation
-ED,United States Department of Education
-HHS,United States Department of Health and Human Services
-HUD,United States Department of Housing and Urban Development
-TREAS,United States Department of the Treasury
-USDA,United States Department of Agriculture
-VA,United States Department of Veterans Affairs
+abbreviation,name,homepage
+DHS,Department of Homeland Security,https://www.dhs.gov/
+DOC,Department of Commerce,https://www.commerce.gov/
+DOD,Department of Defense,https://www.defense.gov/
+DOE,Department of Energy,https://www.energy.gov/
+DOI,Department of the Interior,https://www.doi.gov/
+DOJ,Department of Justice,https://www.justice.gov/
+DOL,Department of Labor,https://www.dol.gov/
+DOS,Department of State,https://www.state.gov/
+DOT,Department of Transportation,https://www.transportation.gov/
+ED,Department of Education,https://www.ed.gov/
+HHS,Department of Health and Human Services,https://www.hhs.gov/
+HUD,Department of Housing and Urban Development,https://www.hud.gov/
+TREAS,Department of the Treasury,https://www.treasury.gov/
+USDA,Department of Agriculture,https://www.usda.gov/
+VA,Department of Veterans Affairs,https://www.va.gov/
