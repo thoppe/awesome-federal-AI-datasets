@@ -1,7 +1,8 @@
 # Awesome Federal AI datasets
+
 A list of high quality accessible datasets for training AI from the US Federal government.
 
-Datasets should be findable (that's this repo!), accessible, and high quality (will be defined). Organized by Department / independent agency.
+Our primary aim is to provide a convenient platform for discovering these datasets, ensuring their accessibility, and upholding an uncompromising standard of quality, as defined by rigorous criteria. The datasets are organized based on their respective originating Department or independent agency, streamlining your exploration process.
 
 ## HHS
 
@@ -17,5 +18,9 @@ Datasets should be findable (that's this repo!), accessible, and high quality (w
 
 + CMS, Open Payments [link](https://www.cms.gov/OpenPayments/Data/Dataset-Downloads)
 
+## Project Listing
 
-## Commerce
+| Agency | Title | Homepage |
+| ----- | ---- | ---- |
+| National Institutes of Health (NIH) | National Institutes of Health (NIH) Grant Funding | [:house:](https://reporter.nih.gov/exporter) 
+| Centers for Disease Control and Prevention (CDC) | COVID-19 Case Surveillance Public Use Data with Geography | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) 
