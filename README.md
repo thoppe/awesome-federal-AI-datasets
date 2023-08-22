@@ -10,14 +10,14 @@ Our primary aim is to provide a convenient platform for discovering these datase
 + NIH, PubMED, abstracts, full text and PDFs [link](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/#bulk)
 + NIH/NLM, Clinical trials, [link](https://classic.clinicaltrials.gov/AllPublicXML.zip), [info](https://classic.clinicaltrials.gov/ct2/resources/download)
 + FDA, all things but including drug adverse events [link](https://open.fda.gov/data/downloads/)
-+ CMS, Open Payments [link](https://www.cms.gov/OpenPayments/Data/Dataset-Downloads)
 + USPTO, patents and trademarks https://www.uspto.gov/learning-and-resources/bulk-data-products
 + NOAA Climate and Weather links (so many) https://www.ncei.noaa.gov/weather-climate-links
 + NASA NEO observations https://neo.gsfc.nasa.gov/about/bulk.php
 
 ## Project Listing
 
-|       | Agency  | Title |
-| ----- | ----    | ---- |
- | [:house:](https://reporter.nih.gov/exporter) | [NIH](https://www.nih.gov/) | ExPORTER: NIH Grant funding | 
- | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) | [CDC](https://www.cdc.gov/) | COVID-19 Case Surveillance Public Use Data with Geography | 
+| Agency  | Title |
+| ----    | ---- |
+ | [NIH](https://www.nih.gov/) | [:house:](https://reporter.nih.gov/exporter) ExPORTER: NIH Grant funding | 
+ | [CDC](https://www.cdc.gov/) | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) COVID-19 Case Surveillance Public Use Data with Geography | 
+ | [CMS](https://www.cms.gov/) | [:house:](nan) Open Payments Dataset Downloads | CMS | 
