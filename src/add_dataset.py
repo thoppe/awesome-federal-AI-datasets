@@ -10,19 +10,19 @@ with open(f_yaml, "r") as stream:
 item = {}
 item["agency"] = input("Agency: ").upper().strip()
 item["department"] = input("Department: ").upper().strip()
-item["url"] = input("URL: ").strip()
+item["homepage"] = input("URL: ").strip()
 
 # TO DO: check if they are in the agency list
 
 # Debug code
 # item["agency"] = "CMS"
 # item["department"] = "HHS"
-# item["url"] = "https://www.cms.gov/OpenPayments/Data/Dataset-Downloads"
+# item["homepage"] = "https://www.cms.gov/OpenPayments/Data/Dataset-Downloads"
 
-r = requests.get(item["url"])
+r = requests.get(item["homepage"])
 
 if not r.ok:
-    raise ValueError(f'{item["url"]} returned {r.status_code}')
+    raise ValueError(f'{item["homepage"]} returned {r.status_code}')
 
 soup = bs4.BeautifulSoup(r.content, "lxml")
 title = soup.find("title")

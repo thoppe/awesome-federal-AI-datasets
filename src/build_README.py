@@ -14,34 +14,40 @@ with open("README.md") as FIN:
 
 readme_text += "\n\n" + split_key + "\n\n"
 
+data = []
 for f_yaml in F_YAML:
-    table = []
     with open(f_yaml, "r") as stream:
-        data = yaml.load_all(stream, yaml.FullLoader)
-        df = pd.DataFrame(data)
+        fdata = yaml.load_all(stream, yaml.FullLoader)
+        data.append(pd.DataFrame(fdata))
 
-    table.append("| Agency  | Title |")
-    table.append("| ----    | ---- |")
-    for _, item in df.iterrows():
-        row = []
-        idx = (item.agency == dfa.abbreviation) & (
-            item.department == dfa.department
-        )
-        if not idx.sum():
-            err = f"{item.agency} at {item.department} unknown"
-            raise KeyError(err)
-        agency_url = dfa[idx]["homepage"].values[0]
+df = pd.concat(data)
 
-        row.append(f"[{item.agency}]({agency_url})")
-        row.append(f"[:house:]({item.homepage}) {item.title}")
-        row = " | ".join([""] + row + [""])
-        table.append(row)
+table = []
+table.append("| Agency  | Title |")
+table.append("| ----    | ---- |")
 
-    table = "\n".join(table)
-    print(df)
-    print(table)
+for _, item in df.iterrows():
+    row = []
+    idx = (item.agency == dfa.abbreviation) & (
+        item.department == dfa.department
+    )
+    if not idx.sum():
+        err = f"{item.agency} at {item.department} unknown"
+        raise KeyError(err)
+    agency_url = dfa[idx]["homepage"].values[0]
 
-    readme_text += table + "\n"
+    row.append(f"[{item.agency}]({agency_url})")
+    # row.append(f"[:house:]({item.homepage}) {item.title}")
+    row.append(f"[{item.title}]({item.homepage})")
+
+    row = " | ".join([""] + row + [""])
+    table.append(row)
+
+table = "\n".join(table)
+print(df)
+print(table)
+
+readme_text += table + "\n"
 
 with open("README.md", "w") as FOUT:
     FOUT.write(readme_text)

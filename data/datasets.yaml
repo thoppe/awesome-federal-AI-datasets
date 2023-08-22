@@ -17,4 +17,28 @@ agency: CMS
 department: HHS
 description: ''
 title: Open Payments Dataset Downloads | CMS
-url: https://www.cms.gov/OpenPayments/Data/Dataset-Downloads
+homepage: https://www.cms.gov/OpenPayments/Data/Dataset-Downloads
+---
+agency: NIH
+department: HHS
+description: ''
+title: 'PubMed Central: Full text biomedical publications'
+homepage: https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/
+---
+agency: NIH
+department: HHS
+description: ''
+title: 'PubMed: Biomedical publication abstract'
+homepage: https://pubmed.ncbi.nlm.nih.gov/download/
+---
+agency: USPTO
+department: DOC
+description: ''
+title: "US Patents: full text and images"
+homepage: https://bulkdata.uspto.gov/
+---
+agency: USPTO
+department: DOC
+description: ''
+title: "US Trademarks: Filings and registration images"
+homepage: https://bulkdata.uspto.gov/
