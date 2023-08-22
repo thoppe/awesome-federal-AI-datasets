@@ -7,14 +7,15 @@ Our primary aim is to provide a convenient platform for discovering these datase
 ## Project Listing
 
 | Agency  | Title |
-| ----    | ---- |
- | [NIH](https://www.nih.gov/) | [ExPORTER: NIH Grant funding](https://reporter.nih.gov/exporter) | 
- | [CDC](https://www.cdc.gov/) | [COVID-19 Case Surveillance Public Use Data with Geography](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) | 
- | [CMS](https://www.cms.gov/) | [Open Payments Dataset Downloads](https://www.cms.gov/OpenPayments/Data/Dataset-Downloads) | 
- | [NIH](https://www.nih.gov/) | [PubMed Central: Full text biomedical publications](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/) | 
- | [NIH](https://www.nih.gov/) | [PubMed: Biomedical publication abstract](https://pubmed.ncbi.nlm.nih.gov/download/) | 
+| ----    | ----  |
+ | [NOAA](https://www.noaa.gov/) | [Weather and Climate Quick Links : National Centers for Environmental Information](https://www.ncei.noaa.gov/weather-climate-links) | 
  | [USPTO](https://www.uspto.gov/) | [US Patents: full text and images](https://bulkdata.uspto.gov/) | 
  | [USPTO](https://www.uspto.gov/) | [US Trademarks: Filings and registration images](https://bulkdata.uspto.gov/) | 
+ | [CDC](https://www.cdc.gov/) | [COVID-19 Case Surveillance Public Use Data with Geography](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) | 
+ | [CDC](https://www.cdc.gov/) | [Vaccine Adverse Event Reporting System (VAERS)](https://vaers.hhs.gov/data/datasets.html) | 
+ | [CMS](https://www.cms.gov/) | [Open Payments Dataset Downloads](https://www.cms.gov/OpenPayments/Data/Dataset-Downloads) | 
+ | [FDA](https://www.fda.gov/) | [Drug Adverse Events, Device Adverse Events, Animal & Veterinary Adverse Events](https://open.fda.gov/data/downloads/) | 
  | [NIH](https://www.nih.gov/) | [Clinical Trials](https://classic.clinicaltrials.gov/ct2/resources/download) | 
- | [FDA](https://www.fda.gov/) | [](https://open.fda.gov/data/downloads/) | 
- | [NOAA](https://www.noaa.gov/) | [Weather and Climate Quick Links | National Centers for Environmental Information](https://www.ncei.noaa.gov/weather-climate-links) | 
+ | [NIH](https://www.nih.gov/) | [ExPORTER: NIH Grant funding](https://reporter.nih.gov/exporter) | 
+ | [NIH](https://www.nih.gov/) | [PubMed Central: Full text biomedical publications](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/) | 
+ | [NIH](https://www.nih.gov/) | [PubMed: Biomedical publication abstract](https://pubmed.ncbi.nlm.nih.gov/download/) | 

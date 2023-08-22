@@ -53,10 +53,16 @@ agency: FDA
 department: HHS
 description: ''
 homepage: https://open.fda.gov/data/downloads/
-title: ''
+title: Drug Adverse Events, Device Adverse Events, Animal & Veterinary Adverse Events
 ---
 agency: NOAA
 department: DOC
 description: ''
 homepage: https://www.ncei.noaa.gov/weather-climate-links
-title: Weather and Climate Quick Links | National Centers for Environmental Information
+title: 'Weather and Climate Quick Links : National Centers for Environmental Information'
+---
+agency: CDC
+department: HHS
+description: ''
+homepage: https://vaers.hhs.gov/data/datasets.html
+title: "Vaccine Adverse Event Reporting System (VAERS)"

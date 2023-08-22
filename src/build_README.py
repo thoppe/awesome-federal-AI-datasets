@@ -21,10 +21,11 @@ for f_yaml in F_YAML:
         data.append(pd.DataFrame(fdata))
 
 df = pd.concat(data)
+df = df.sort_values(["department", "agency", "title"])
 
 table = []
 table.append("| Agency  | Title |")
-table.append("| ----    | ---- |")
+table.append("| ----    | ----  |")
 
 for _, item in df.iterrows():
     row = []
