@@ -8,6 +8,7 @@ Our primary aim is to provide a convenient platform for discovering these datase
 
 | Dept. | Agency  | Title |
 | ----  | ----    | ----  |
+ | [DOC](https://www.commerce.gov/) | [CENSUS](https://www.census.gov) | [Historical and current Census mapping TIGER/Line Shapefiles for legal boundaries and names of US](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) | 
  | [DOC](https://www.commerce.gov/) | [NOAA](https://www.noaa.gov/) | [Weather and Climate Quick Links : National Centers for Environmental Information](https://www.ncei.noaa.gov/weather-climate-links) | 
  | [DOC](https://www.commerce.gov/) | [USPTO](https://www.uspto.gov/) | [US Patents: full text and images](https://bulkdata.uspto.gov/) | 
  | [DOC](https://www.commerce.gov/) | [USPTO](https://www.uspto.gov/) | [US Trademarks: Filings and registration images](https://bulkdata.uspto.gov/) | 
@@ -17,6 +18,7 @@ Our primary aim is to provide a convenient platform for discovering these datase
  | [HHS](https://www.hhs.gov/) | [CDC](https://www.cdc.gov/) | [Vaccine Adverse Event Reporting System (VAERS)](https://vaers.hhs.gov/data/datasets.html) | 
  | [HHS](https://www.hhs.gov/) | [CMS](https://www.cms.gov/) | [Open Payments Dataset Downloads](https://www.cms.gov/OpenPayments/Data/Dataset-Downloads) | 
  | [HHS](https://www.hhs.gov/) | [FDA](https://www.fda.gov/) | [Drug Adverse Events, Device Adverse Events, Animal & Veterinary Adverse Events](https://open.fda.gov/data/downloads/) | 
+ | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [Bibliometric publication citation graph links](https://icite.od.nih.gov/api) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [Clinical Trials](https://classic.clinicaltrials.gov/ct2/resources/download) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [ExPORTER: NIH Grant funding](https://reporter.nih.gov/exporter) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [PubMed Central: Full text biomedical publications](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/) | 
