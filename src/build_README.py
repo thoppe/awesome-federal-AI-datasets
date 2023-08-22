@@ -4,9 +4,8 @@ import pandas as pd
 
 F_YAML = Path("data").glob("*.yaml")
 
-df_agency = pd.read_csv("data/acronyms/agency.csv")
-df_department = pd.read_csv("data/acronyms/departments.csv")
-print(df_agency)
+dfa = pd.read_csv("data/acronyms/agency.csv")
+#df_department = pd.read_csv("data/acronyms/departments.csv")
 
 split_key = "## Project Listing"
 with open("README.md") as FIN:
@@ -22,10 +21,25 @@ for f_yaml in F_YAML:
         data = yaml.load_all(stream, yaml.FullLoader)
         df = pd.DataFrame(data)
 
-    table.append("| Agency | Title | Homepage |")
-    table.append("| ----- | ---- | ---- |")
-    for _, row in df.iterrows():
-        table.append(f"| {row.agency} | {row.title} | [:house:]({row.homepage}) ")
+    table.append("|       | Agency  | Title |")
+    table.append("| ----- | ----    | ---- |")
+    for _, item in df.iterrows():
+        row = []
+
+        idx = (
+            (item.agency == dfa.abbreviation) &
+            (item.department == dfa.department)
+        )
+        if not idx.sum():
+            err = f"{item.agency} at {item.department} unknown"
+            raise KeyError(err)
+        agency_url = dfa[idx]['homepage'].values[0]
+        
+        row.append(f"[:house:]({item.homepage})")
+        row.append(f"[{item.agency}]({agency_url})")
+        row.append(f"{item.title}")
+        row = ' | '.join([''] + row + [''])
+        table.append(row)
 
     table = '\n'.join(table)
     print(df)

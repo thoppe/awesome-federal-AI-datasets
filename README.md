@@ -17,7 +17,7 @@ Our primary aim is to provide a convenient platform for discovering these datase
 
 ## Project Listing
 
-| Agency | Title | Homepage |
-| ----- | ---- | ---- |
-| NIH | ExPORTER: NIH Grant funding | [:house:](https://reporter.nih.gov/exporter) 
-| CDC | COVID-19 Case Surveillance Public Use Data with Geography | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) 
+|       | Agency  | Title |
+| ----- | ----    | ---- |
+ | [:house:](https://reporter.nih.gov/exporter) | [NIH](https://www.nih.gov/) | ExPORTER: NIH Grant funding | 
+ | [:house:](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4) | [CDC](https://www.cdc.gov/) | COVID-19 Case Surveillance Public Use Data with Geography | 
