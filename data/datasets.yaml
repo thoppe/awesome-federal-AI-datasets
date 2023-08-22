@@ -78,3 +78,9 @@ department: GSA
 description: ''
 homepage: https://www.regulations.gov/bulkdownload
 title: Regulations.gov, no easy bulk download
+---
+agency: NIH
+department: HHS
+description: ''
+homepage: https://icite.od.nih.gov/api
+title: Bibliometric publication citation graph links
