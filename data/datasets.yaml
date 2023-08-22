@@ -65,4 +65,16 @@ agency: CDC
 department: HHS
 description: ''
 homepage: https://vaers.hhs.gov/data/datasets.html
-title: "Vaccine Adverse Event Reporting System (VAERS)"
+title: Vaccine Adverse Event Reporting System (VAERS)
+---
+agency: NSD
+department: DOJ
+description: ''
+homepage: https://efile.fara.gov/ords/fara/f?p=API:BULKDATA
+title: 'Foreign Agents Registration Act : Registrants and PDFs'
+---
+agency: ''
+department: GSA
+description: ''
+homepage: https://www.regulations.gov/bulkdownload
+title: Regulations.gov, no easy bulk download
