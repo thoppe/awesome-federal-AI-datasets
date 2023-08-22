@@ -5,7 +5,7 @@ import pandas as pd
 F_YAML = Path("data").glob("*.yaml")
 
 dfa = pd.read_csv("data/acronyms/agency.csv")
-# df_department = pd.read_csv("data/acronyms/departments.csv")
+dfd = pd.read_csv("data/acronyms/department.csv")
 
 split_key = "## Project Listing"
 with open("README.md") as FIN:
@@ -24,19 +24,21 @@ df = pd.concat(data)
 df = df.sort_values(["department", "agency", "title"])
 
 table = []
-table.append("| Agency  | Title |")
-table.append("| ----    | ----  |")
+table.append("| Dept. | Agency  | Title |")
+table.append("| ----  | ----    | ----  |")
 
 for _, item in df.iterrows():
-    row = []
-    idx = (item.agency == dfa.abbreviation) & (
-        item.department == dfa.department
-    )
+    idx = (item.agency == dfa.agency) & (item.department == dfa.department)
     if not idx.sum():
         err = f"{item.agency} at {item.department} unknown"
         raise KeyError(err)
     agency_url = dfa[idx]["homepage"].values[0]
 
+    idx = item.department == dfd.department
+    department_url = dfd[idx]["homepage"].values[0]
+
+    row = []
+    row.append(f"[{item.department}]({department_url})")
     row.append(f"[{item.agency}]({agency_url})")
     # row.append(f"[:house:]({item.homepage}) {item.title}")
     row.append(f"[{item.title}]({item.homepage})")
