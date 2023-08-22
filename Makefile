@@ -1,5 +1,6 @@
 build:
 	python src/build_README.py
+	make lint
 
 lint:
 	black --line-length 80 src
