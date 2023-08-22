@@ -7,13 +7,6 @@ F_YAML = Path("data").glob("*.yaml")
 dfa = pd.read_csv("data/acronyms/agency.csv")
 dfd = pd.read_csv("data/acronyms/department.csv")
 
-split_key = "## Project Listing"
-with open("README.md") as FIN:
-    readme_text = FIN.read()
-    readme_text = readme_text.split(split_key)[0].strip()
-
-readme_text += "\n\n" + split_key + "\n\n"
-
 data = []
 for f_yaml in F_YAML:
     with open(f_yaml, "r") as stream:
@@ -43,6 +36,7 @@ for _, item in df.iterrows():
     row = []
     row.append(f"[{item.department}]({department_url})")
     row.append(f"[{item.agency}]({agency_url})")
+
     # row.append(f"[:house:]({item.homepage}) {item.title}")
     row.append(f"[{item.title}]({item.homepage})")
 
@@ -50,10 +44,13 @@ for _, item in df.iterrows():
     table.append(row)
 
 table = "\n".join(table)
-print(df)
-print(table)
 
-readme_text += table + "\n"
+f_header = "data/assets/README_header.md"
+f_footer = "data/assets/README_footer.md"
+header = open(f_header).read()
+footer = open(f_footer).read()
+
+readme_text = "\n\n".join([header, table, footer])
 
 with open("README.md", "w") as FOUT:
     FOUT.write(readme_text)

@@ -4,8 +4,6 @@ A list of high quality accessible datasets for training AI from the US Federal g
 
 Our primary aim is to provide a convenient platform for discovering these datasets, ensuring their accessibility, and upholding a standard of quality, as defined by rigorous criteria. The datasets are organized based on their respective originating Department or independent agency.
 
-## Project Listing
-
 | Dept. | Agency  | Title |
 | ----  | ----    | ----  |
  | [DOC](https://www.commerce.gov/) | [CENSUS](https://www.census.gov) | [Historical and current Census mapping TIGER/Line Shapefiles for legal boundaries and names of US](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) | 
@@ -23,3 +21,9 @@ Our primary aim is to provide a convenient platform for discovering these datase
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [ExPORTER: NIH Grant funding](https://reporter.nih.gov/exporter) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [PubMed Central: Full text biomedical publications](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [PubMed: Biomedical publication abstract](https://pubmed.ncbi.nlm.nih.gov/download/) | 
+
+## Development
+
+Built with ❤️by [@metasemantic](https://twitter.com/metasemantic).
+Code is linted by [black](https://github.com/psf/black) and conforms to standards by [flake8](https://github.com/PyCQA/flake8).
+New projects should be added to [data/datasets.yaml](data/datasets.yaml), run `make build`, and submit a PR.
