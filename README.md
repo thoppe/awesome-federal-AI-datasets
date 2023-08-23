@@ -4,6 +4,7 @@ A list of high quality accessible datasets for training AI from the US Federal g
 
 Our primary aim is to provide a convenient platform for discovering these datasets, ensuring their accessibility, and upholding a standard of quality, as defined by rigorous criteria. The datasets are organized based on their respective originating Department or independent agency.
 
+
 | Dept. | Agency  | Title |
 | ----  | ----    | ----  |
  | [DOC](https://www.commerce.gov/) | [CENSUS](https://www.census.gov) | [Historical and current Census mapping TIGER/Line Shapefiles for legal boundaries and names of US](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) | 
@@ -21,6 +22,26 @@ Our primary aim is to provide a convenient platform for discovering these datase
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [ExPORTER: NIH Grant funding](https://reporter.nih.gov/exporter) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [PubMed Central: Full text biomedical publications](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/) | 
  | [HHS](https://www.hhs.gov/) | [NIH](https://www.nih.gov/) | [PubMed: Biomedical publication abstract](https://pubmed.ncbi.nlm.nih.gov/download/) | 
+
+## Development of AI Ready
+
+
+Draft ideas for AI ready:
+
++ Open Access: Ensure that the dataset is freely available to anyone without any access restrictions or subscription requirements. Specify the dataset's licensing terms clearly, indicating how it can be used, shared, and modified. Consider open licenses that align with the principles of open data sharing.
++ Downloadable: The dataset should be downloadable in its entirety, allowing researchers and developers to work with it offline and on their preferred hardware.
++ Format: Provide the dataset in a single, well-organized file format (such as CSV, JSON, or Parquet) to facilitate easy ingestion and processing.
++ Abundant Records: Include a substantial number of records in the dataset. A larger number of diverse examples allows for better model training and evaluation.
++ Quality Documentation: Offer clear and comprehensive documentation that explains the dataset's origin, purpose, structure, and any preprocessing steps performed on the data. This documentation aids users in understanding and effectively utilizing the dataset.
++ Data Dictionaries: Include data dictionaries or schema descriptions detailing the meaning of each field or column. This enhances transparency and helps users interpret the data accurately.
++ API Access: Consider providing API endpoints that allow users to access specific elements of the dataset programmatically. This can simplify data retrieval for specific use cases and scenarios.
++ Data Diversity: Ensure that the dataset covers a wide range of relevant cases, scenarios, or examples to promote robust model training and generalization.
++ Versioning: If updates or corrections are made to the dataset, maintain a versioning system that clearly identifies changes. This helps users stay up-to-date with improvements.
+
+Bonus scores?
++ Regular Updates: Maintain the dataset by periodically updating it with fresh data or addressing issues that may arise.
++ Ethical Considerations: Address potential ethical concerns associated with the dataset, such as privacy, bias, and fairness, and take steps to mitigate these concerns.
+
 
 ## Development
 
