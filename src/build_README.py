@@ -24,7 +24,10 @@ for _, item in df.iterrows():
     if item.agency:
         idx = (item.agency == dfa.agency) & (item.department == dfa.department)
         if not idx.sum():
-            err = f"{item.agency} at {item.department} unknown"
+            err = (
+                f"{item.agency} at {item.department} unknown. "
+                f"Edit data/acronyms/agency.csv"
+            )
             raise KeyError(err)
         agency_url = dfa[idx]["homepage"].values[0]
     else:
