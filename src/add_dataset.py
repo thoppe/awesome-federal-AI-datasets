@@ -1,11 +1,8 @@
+from slugify import slugify
+from pathlib import Path
 import yaml
 import requests
 import bs4
-
-f_yaml = "data/datasets.yaml"
-with open(f_yaml, "r") as stream:
-    data = list(yaml.load_all(stream, yaml.FullLoader))
-
 
 item = {}
 item["agency"] = input("Agency: ").upper().strip()
@@ -28,13 +25,18 @@ soup = bs4.BeautifulSoup(r.content, "lxml")
 title = soup.find("title")
 if title is not None:
     title = title.get_text()
-item["title"] = title
-print(f'Extracted "{title}" from URL')
+
+print("** Suggested title from URL: ", title)
+
+item["title"] = input("Title: ").strip()
 item["description"] = ""
 
-data.append(item)
+save_dest = Path("data/datasets")
+keys = [item["department"], item["agency"], slugify(item["title"])]
+name = "_".join(keys)
+f_yaml = save_dest / (name + ".yaml")
 
 with open(f_yaml, "w") as FOUT:
-    yaml.dump_all(data, FOUT)
+    yaml.dump(item, FOUT)
 
 print(f"Saved to {f_yaml}")

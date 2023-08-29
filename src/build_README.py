@@ -2,7 +2,7 @@ from pathlib import Path
 import yaml
 import pandas as pd
 
-F_YAML = Path("data").glob("*.yaml")
+F_YAML = Path("data/datasets").glob("*.yaml")
 
 dfa = pd.read_csv("data/acronyms/agency.csv")
 dfd = pd.read_csv("data/acronyms/department.csv")
@@ -10,10 +10,10 @@ dfd = pd.read_csv("data/acronyms/department.csv")
 data = []
 for f_yaml in F_YAML:
     with open(f_yaml, "r") as stream:
-        fdata = yaml.load_all(stream, yaml.FullLoader)
-        data.append(pd.DataFrame(fdata))
+        item = yaml.load(stream, yaml.Loader)
+        data.append(item)
 
-df = pd.concat(data)
+df = pd.DataFrame(data)
 df = df.sort_values(["department", "agency", "title"])
 
 table = []
