@@ -1,0 +1,67 @@
+AI_ready_questions:
+  - id: open_access_status
+    query: Is the dataset open access or are there access restrictions?
+    responses:
+      - Open Access
+      - Registration required
+      - Restricted Access
+  - id: downloadable_status
+    query: Is the dataset available for bulk download for offline use?
+    responses:
+      - Fully Downloadable
+      - Not Downloadable
+  - id: file_format
+    query: Is the dataset in a machine-readable format? (e.g., CSV, XML, JSON, ...)
+    responses:
+      - 'Yes'
+      - 'No'
+  - id: single_file
+    query: Is the dataset (or a subset) available as a single flat file?
+    responses:
+      - 'Yes'
+      - 'No'
+
+Potential_AI_ready_questions:
+  - id: _record_diversity
+    query: Does the dataset have a large number of diverse records?
+    responses:
+      - High Diversity
+      - Moderate Diversity
+      - Low Diversity
+  - id: documentation_clarity
+    query: Is there clear documentation that outlines the dataset's origin, purpose, structure, and preprocessing steps?
+    responses:
+      - Comprehensive Documentation
+      - Partial Documentation
+      - No Documentation
+  - id: data_dictionary_availability
+    query: Is there a data dictionary or schema description available for each field or column in the dataset?
+    responses:
+      - Available
+      - Partially Available
+      - Not Available
+  - id: api_accessibility
+    query: Do you offer API access to retrieve specific data elements from the dataset?
+    responses:
+      - Full API Access
+      - Limited API Access
+      - No API Access
+  - id: versioning_system
+    query: Do you have a versioning system in place for tracking dataset updates or corrections?
+    responses:
+      - Versioning in Place
+      - No Versioning
+      - Planning to Implement Versioning
+  - id: update_frequency
+    query: How often is the dataset updated?
+    responses:
+      - Daily
+      - Weekly
+      - Monthly
+      - Rarely
+  - id: ethical_considerations
+    query: Have you addressed and taken steps to mitigate any ethical concerns, such as privacy, bias, and fairness associated with the dataset?
+    responses:
+      - Fully Addressed
+      - Partially Addressed
+      - Not Addressed

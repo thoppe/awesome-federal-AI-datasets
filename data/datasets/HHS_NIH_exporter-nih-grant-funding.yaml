@@ -1,3 +1,8 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: 'Yes'
+  open_access_status: Open Access
+  single_file: 'No'
 agency: NIH
 department: HHS
 description: Funding opportunities provided by the National Institutes of Health (NIH)

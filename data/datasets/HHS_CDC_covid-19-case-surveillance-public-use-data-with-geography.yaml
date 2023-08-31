@@ -1,3 +1,8 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: 'Yes'
+  open_access_status: Open Access
+  single_file: 'Yes'
 agency: CDC
 department: HHS
 description: Access comprehensive and up-to-date COVID-19 case surveillance data,
