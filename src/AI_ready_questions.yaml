@@ -1,26 +1,36 @@
 AI_ready_questions:
   - id: open_access_status
+    score: 25
     query: Is the dataset open access or are there access restrictions?
     responses:
       - Open Access
       - Registration required
       - Restricted Access
   - id: downloadable_status
+    score: 25
     query: Is the dataset available for bulk download for offline use?
     responses:
       - Fully Downloadable
       - Not Downloadable
   - id: file_format
+    score: 10
     query: Is the dataset in a machine-readable format? (e.g., CSV, XML, JSON, ...)
     responses:
       - 'Yes'
       - 'No'
   - id: single_file
+    score: 5
     query: Is the dataset (or a subset) available as a single flat file?
     responses:
       - 'Yes'
       - 'No'
-
+  - id: number_of_records
+    score: 10
+    query: Does the dataset have a sizable number of records (> 100K)?
+    responses:
+      - 'Yes'
+      - 'No'
+      
 Potential_AI_ready_questions:
   - id: _record_diversity
     query: Does the dataset have a large number of diverse records?

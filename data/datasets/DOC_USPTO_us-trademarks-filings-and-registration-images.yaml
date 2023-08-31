@@ -1,6 +1,7 @@
 AI_ready_questions:
   downloadable_status: Fully Downloadable
   file_format: 'Yes'
+  number_of_records: 'Yes'
   open_access_status: Open Access
   single_file: 'No'
 agency: USPTO

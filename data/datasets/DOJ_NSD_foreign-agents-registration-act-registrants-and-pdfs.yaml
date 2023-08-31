@@ -1,6 +1,7 @@
 AI_ready_questions:
   downloadable_status: Fully Downloadable
   file_format: 'No'
+  number_of_records: 'No'
   open_access_status: Open Access
   single_file: 'No'
 agency: NSD

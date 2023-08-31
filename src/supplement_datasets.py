@@ -46,4 +46,3 @@ for f_yaml in F_YAML:
             print(f"Saving {f_yaml}")
             with open(f_yaml, "w") as FOUT:
                 yaml.dump(item, FOUT)
-            exit()
