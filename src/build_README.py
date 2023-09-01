@@ -8,32 +8,24 @@ dfa = pd.read_csv("data/acronyms/agency.csv")
 dfd = pd.read_csv("data/acronyms/department.csv")
 
 f_questions = "src/AI_ready_questions.yaml"
-question_key = 'AI_ready_questions'
+question_key = "AI_ready_questions"
 score_sheet = yaml.load(open(f_questions, "r"), yaml.Loader)
-questions = pd.DataFrame(score_sheet[question_key]).set_index('id')
-ranking = pd.DataFrame(score_sheet['Ranking'])
+questions = pd.DataFrame(score_sheet[question_key]).set_index("id")
+ranking = pd.DataFrame(score_sheet["Ranking"])
 
 data = []
 for f_yaml in F_YAML:
     with open(f_yaml, "r") as stream:
         item = yaml.load(stream, yaml.Loader)
-        item['f_yaml'] = f_yaml
+        item["f_yaml"] = f_yaml
         data.append(item)
-        
+
 
 df = pd.DataFrame(data)
-df = df.sort_values(["department", "agency", "title"])
-
-table = []
-table.append("| Status| Dept. | Agency  | Title |")
-table.append("| ----  | ----  | ----    | ----- |")
-
-df = df[::-1]
 
 # Compute the dataset scores
 col_scores, col_icons = [], []
 for _, item in df.iterrows():
-
     dataset_score = 0
     is_unknown = False
     if question_key in item:
@@ -42,22 +34,30 @@ for _, item in df.iterrows():
             q = questions.loc[k]
             if v == "Unknown":
                 is_unknown = True
-            if v == q['responses'][0]:
-                dataset_score += q['score']
-       
+            if v == q["responses"][0]:
+                dataset_score += q["score"]
+
     # Get the highest ranking from the scores
-    row = ranking[ranking.score<=dataset_score].sort_values('rank').iloc[0]
-    icon = row['icon']
+    row = ranking[ranking.score <= dataset_score].sort_values("rank").iloc[0]
+    icon = row["icon"]
 
     if is_unknown:
-        icon = ":question_mark:"
+        icon = ":question:"
     col_scores.append(dataset_score)
     col_icons.append(icon)
-df['dataset_score'] = col_scores
-df['dataset_icon'] = col_icons
-df = df.sort_values('dataset_score', ascending=False)
 
+df["dataset_score"] = col_scores
+df["dataset_icon"] = col_icons
+sort_cols = ["dataset_score", "department", "agency", "title"]
+df = df.sort_values(sort_cols, ascending=False)
+
+##########################################################################
 # Build the table
+##########################################################################
+
+table = []
+table.append("| Status| Dept. | Agency  | Title |")
+table.append("| ----  | ----  | ----    | ----- |")
 
 for _, item in df.iterrows():
     if item.agency:
@@ -72,10 +72,8 @@ for _, item in df.iterrows():
     else:
         agency_url = ""
 
-
     idx = item.department == dfd.department
     department_url = dfd[idx]["homepage"].values[0]
-
 
     row = []
     row.append(f"[{item.dataset_icon}]({item.f_yaml})")

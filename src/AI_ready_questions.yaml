@@ -1,3 +1,5 @@
+# Only if the dataset matches the response exactly is it given the score
+
 AI_ready_questions:
   - id: open_access_status
     score: 10
@@ -30,7 +32,10 @@ AI_ready_questions:
     responses:
       - 'Yes'
       - 'No'
-      
+
+# Rankings for the status symbols. Adjust if the scores are adjusted
+# Curently a top score is 35 points
+
 Ranking:
   - id: High
     score: 35
@@ -45,9 +50,10 @@ Ranking:
     rank: 2
     icon: ":red_circle:"
 
-      
+# These questions are proposed but do not count towards the score
+
 Potential_AI_ready_questions:
-  - id: _record_diversity
+  - id: record_diversity
     query: Does the dataset have a large number of diverse records?
     responses:
       - High Diversity
