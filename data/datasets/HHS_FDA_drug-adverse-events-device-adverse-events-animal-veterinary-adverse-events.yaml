@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'No'
 agency: FDA
 department: HHS
-description: ''
+description: 'FDA (U.S. Food and Drug Administration) maintains several databases related to adverse events involving drugs, medical devices, animal products, and veterinary medicine. '
 homepage: https://open.fda.gov/data/downloads/
 title: Drug, Device, Animal, and Veterinary Adverse Events

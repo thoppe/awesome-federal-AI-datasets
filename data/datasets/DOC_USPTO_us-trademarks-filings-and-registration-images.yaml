@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'No'
 agency: USPTO
 department: DOC
-description: ''
+description: 'The USPTO is responsible for the examination, issuance, and maintenance of trademarks in the United States. The datasets they provide include information about trademark filings and registrations. This dataset includes information about trademark applications filed with the USPTO. It could encompass details such as the applicant's name, address, the mark itself (including text and/or logo), the goods or services the mark is associated with, filing date, classification of goods/services, and more.'
 homepage: https://bulkdata.uspto.gov/
 title: 'US Trademarks: Filings and registration images'

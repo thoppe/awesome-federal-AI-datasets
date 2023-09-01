@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'No'
 agency: ''
 department: GSA
-description: ''
+description: 'Regulations.gov is a centralized online portal that provides access to information and documents related to the federal rulemaking process in the United States. The platform serves as a repository for various datasets associated with regulatory actions proposed by federal agencies. Proposed Rules and Regulations: These datasets contain information about regulatory actions that federal agencies are considering. This includes details about the proposed rule, its title, summary, agency responsible, publication date, comment period, and more. Comments: This dataset comprises the comments submitted by the public, stakeholders, and interested parties in response to the proposed rules. Each comment includes the commenter's name, organization (if applicable), the content of the comment, and the date submitted. '
 homepage: https://www.regulations.gov/bulkdownload
 title: Regulations.gov, Federal rulemaking process

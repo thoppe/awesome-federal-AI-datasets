@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'No'
 agency: NIH
 department: HHS
-description: ''
+description: 'PubMed Central® (PMC) is a free full-text archive of biomedical and life sciences journal literature at the U.S. National Institutes of Health's National Library of Medicine (NIH/NLM). In keeping with NLM's legislative mandate to collect and preserve the biomedical literature, PMC is part of the NLM collection, which also includes NLM's extensive print and licensed electronic journal holdings and supports contemporary biomedical and health care research and practice as well as future scholarship.'
 homepage: https://www.ncbi.nlm.nih.gov/pmc/tools/ftp/
 title: 'PubMed Central: Full text biomedical publications'

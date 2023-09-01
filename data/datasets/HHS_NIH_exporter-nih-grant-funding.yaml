@@ -6,7 +6,7 @@ AI_ready_questions:
   single_file: 'No'
 agency: NIH
 department: HHS
-description: Funding opportunities provided by the National Institutes of Health (NIH)
+description: ExPORTER (Extramural Projects Online Reporting Tool and Expenditures) is a database provided by the National Institutes of Health (NIH) in the United States. ExPORTER is designed to provide the public with access to detailed information about NIH-funded research projects, including information about grant recipients, funding amounts, project abstracts, publications, and more. It serves as a valuable resource for researchers, policymakers, and the general public interested in understanding how NIH funds are allocated and utilized.
   to support cutting-edge research and advancements in health and medical sciences.
 homepage: https://reporter.nih.gov/exporter
 title: 'ExPORTER: NIH Grant funding'
