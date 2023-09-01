@@ -38,7 +38,7 @@ AI_ready_questions:
 
 Ranking:
   - id: High
-    score: 35
+    score: 30
     rank: 0
     icon: ":green_circle:"
   - id: Medium
