@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'No'
 agency: NIH
 department: HHS
-description: ''
+description: 'The dataset pertains to biomedical publications and consists of abstracts from various scientific articles and research papers. These abstracts cover a wide range of topics related to the field of biomedicine, including but not limited to medical research, clinical studies, life sciences, genetics, pharmacology, and healthcare-related advancements. The dataset serves as a valuable resource for researchers, healthcare professionals, and anyone interested in staying up-to-date with the latest developments in the biomedical field. It contributes to the dissemination of scientific knowledge and promotes advancements in healthcare and medical research.'
 homepage: https://pubmed.ncbi.nlm.nih.gov/download/
 title: 'PubMed: Biomedical publication abstract'

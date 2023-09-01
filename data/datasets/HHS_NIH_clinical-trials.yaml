@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'Yes'
 agency: NIH
 department: HHS
-description: ''
+description: 'ClinicalTrials.gov is a website and online database of clinical research studies and information about their results. The purpose of ClinicalTrials.gov is to provide information about clinical research studies to the public, researchers, and health care professionals. The U.S. government does not review or approve the safety and science of all studies listed on this website.'
 homepage: https://classic.clinicaltrials.gov/ct2/resources/download
 title: Clinical Trials

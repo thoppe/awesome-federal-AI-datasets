@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'No'
 agency: GPO
 department: Legislative
-description: null
+description: "The Federal Register serves as a public record of the US government's administrative activities and is used to inform the public about proposed and finalized regulations, executive orders, proclamations, and other official documents."
 homepage: https://www.govinfo.gov/bulkdata/FR
 title: US Federal Register

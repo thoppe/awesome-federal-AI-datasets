@@ -1,4 +1,5 @@
 build:
+	python src/supplement_datasets.py
 	python src/build_README.py
 	make lint
 

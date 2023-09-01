@@ -6,6 +6,6 @@ AI_ready_questions:
   single_file: 'Yes'
 agency: CDC
 department: HHS
-description: ''
+description: 'The purpose of this dataset is to serve as a national surveillance system for monitoring the safety of vaccines and to help identify potential adverse effects associated with vaccination. The data within VAERS includes reports from healthcare professionals, vaccine manufacturers, and the public. It encompasses a wide range of information, including details about the vaccines administered, adverse events experienced, patient demographics, and the reporting source. Researchers, healthcare professionals, and public health officials often utilize this dataset to analyze trends in vaccine safety, identify potential areas for further investigation, and ensure the ongoing safety of vaccination programs. The VAERS dataset plays a crucial role in maintaining transparency and accountability within vaccination campaigns, helping to build public trust in immunization efforts.'
 homepage: https://vaers.hhs.gov/data/datasets.html
 title: Vaccine Adverse Event Reporting System (VAERS)

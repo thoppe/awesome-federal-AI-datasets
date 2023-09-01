@@ -17,10 +17,8 @@ for f_yaml in F_YAML:
         item = yaml.load(stream, yaml.Loader)
         is_modified = False
 
-        print(item)
         if main_question_key not in item:
             item[main_question_key] = {}
-        print(item)
 
         qprint(item["title"], style="fg:ansiyellow bg:black bold underline")
         qprint(item["homepage"], style="fg:ansiwhite bg:black italic")

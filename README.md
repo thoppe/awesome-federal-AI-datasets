@@ -23,12 +23,12 @@ Our primary aim is to provide a convenient platform for discovering these datase
  | [:red_circle:](data/datasets/DOJ_NSD_foreign-agents-registration-act-registrants-and-pdfs.yaml) | [DOJ](https://www.justice.gov/) | [NSD](https://www.justice.gov/nsd) | [Foreign Agents Registration Act : Registrants and PDFs](https://efile.fara.gov/ords/fara/f?p=API:BULKDATA) | 
  | [:question:](data/datasets/DOC_NOAA_weather-and-climate-quick-links-national-centers-for-environmental-information.yaml) | [DOC](https://www.commerce.gov/) | [NOAA](https://www.noaa.gov/) | [Weather and Climate Quick Links : National Centers for Environmental Information](https://www.ncei.noaa.gov/weather-climate-links) | 
 
-## Development of AI Ready
+## AI Ready scores
 
-Questions and scores for the AI dataset can be found at [AI_ready_questions.yaml](src/AI_ready_questions.yaml)
+Questions and scores for the AI dataset can be found at [AI_ready_questions.yaml](src/AI_ready_questions.yaml). 
 
 ## Development
 
 Built with :purple_heart: by [@metasemantic](https://twitter.com/metasemantic).
 Code is linted by [black](https://github.com/psf/black) and conforms to standards by [flake8](https://github.com/PyCQA/flake8).
-New projects should be added to [data/datasets.yaml](data/datasets.yaml), run `make build`, and submit a PR.
+New projects should be added to [data/datasets](data/datasets). To help build the YAML entry run `make add`, `make build`, then submit a PR.
