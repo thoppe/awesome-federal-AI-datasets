@@ -1,14 +1,15 @@
 AI_ready_questions:
-  downloadable_status: Fully Downloadable
-  file_format: 'Yes'
-  number_of_records: 'Yes'
+  downloadable_status: Unknown
+  file_format: Unknown
+  number_of_records: Unknown
   open_access_status: Registration required
-  single_file: 'No'
+  single_file: Unknown
 agency: USPTO
 department: DOC
 description: >-
-  This dataset contains the full text of granted patents, including the patent's
-  title, abstract, claims, description, and bibliographic information. It is
-  available in structured and unstructured forms.
+  Legacy catalog record for USPTO patent data. The Open Data Portal replaced
+  the Bulk Data Storage System and requires a USPTO.gov account; the exact
+  product scope, artifact format, and download behavior require authenticated
+  product-level verification.
 homepage: https://data.uspto.gov/
 title: 'US Patents text and images'

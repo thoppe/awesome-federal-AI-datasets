@@ -2,13 +2,14 @@ AI_ready_questions:
   downloadable_status: Not Downloadable
   file_format: 'Yes'
   number_of_records: 'Yes'
-  open_access_status: Open Access
+  open_access_status: Registration required
   single_file: 'No'
-agency: ''
+agency: TTS
 department: GSA
 description: >-
-  Regulations.gov provides public rulemaking documents, proposed rules, and
-  public comments, including agency, publication, comment-period, and
-  submission-date information.
-homepage: https://www.regulations.gov/bulkdownload
+  GSA Technology Transformation Services operates Regulations.gov, which
+  provides federal rulemaking documents, proposed rules, and public comments.
+  Its documented public API requires an API key; no permanent bulk-download
+  solution is currently confirmed.
+homepage: https://open.gsa.gov/api/regulationsgov/
 title: Regulations.gov, Federal rulemaking process

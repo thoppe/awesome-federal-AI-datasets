@@ -22,3 +22,4 @@ is complete.
 - [Assessment boundary](contracts/data-assessment-boundary-contract.md)
 - [Remediation](contracts/catalog-remediation-contract.md)
 - [2026-07-16 baseline](quality-assessment-baseline-2026-07-16.md)
+- [Phase 1 publisher verification](publisher-verification-2026-07-16.md)
