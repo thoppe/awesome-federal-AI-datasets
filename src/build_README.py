@@ -1,22 +1,24 @@
+import argparse
 from pathlib import Path
+import sys
 import yaml
 import pandas as pd
 
-F_YAML = Path("data/datasets").glob("*.yaml")
+F_YAML = sorted(Path("data/datasets").glob("*.yaml"))
 
 dfa = pd.read_csv("data/acronyms/agency.csv")
 dfd = pd.read_csv("data/acronyms/department.csv")
 
 f_questions = "src/AI_ready_questions.yaml"
 question_key = "AI_ready_questions"
-score_sheet = yaml.load(open(f_questions, "r"), yaml.Loader)
+score_sheet = yaml.safe_load(open(f_questions, "r"))
 questions = pd.DataFrame(score_sheet[question_key]).set_index("id")
 ranking = pd.DataFrame(score_sheet["Ranking"])
 
 data = []
 for f_yaml in F_YAML:
     with open(f_yaml, "r") as stream:
-        item = yaml.load(stream, yaml.Loader)
+        item = yaml.safe_load(stream)
         item["f_yaml"] = f_yaml
         data.append(item)
 
@@ -83,7 +85,7 @@ for _, item in df.iterrows():
     # row.append(f"[:house:]({item.homepage}) {item.title}")
     row.append(f"[{item.title}]({item.homepage})")
 
-    row = " | ".join([""] + row + [""])
+    row = "| " + " | ".join(row) + " |"
     table.append(row)
 
 table = "\n".join(table)
@@ -97,5 +99,18 @@ footer = open(f_footer).read()
 
 readme_text = "\n\n".join([header, table, footer])
 
-with open("README.md", "w") as FOUT:
-    FOUT.write(readme_text)
+parser = argparse.ArgumentParser(
+    description="Build the generated catalog README."
+)
+parser.add_argument(
+    "--check", action="store_true", help="fail if README.md is not current"
+)
+args = parser.parse_args()
+
+if args.check:
+    if Path("README.md").read_text() != readme_text:
+        print("README.md is not current; run make build", file=sys.stderr)
+        raise SystemExit(1)
+else:
+    with open("README.md", "w") as FOUT:
+        FOUT.write(readme_text)

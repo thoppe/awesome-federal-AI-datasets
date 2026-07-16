@@ -6,15 +6,15 @@ from questionary import print as qprint
 main_question_key = "AI_ready_questions"
 
 f_questions = "src/AI_ready_questions.yaml"
-questions = yaml.load(open(f_questions, "r"), yaml.Loader)
+questions = yaml.safe_load(open(f_questions, "r"))
 questions = questions[main_question_key]
 
-F_YAML = Path("data/datasets").glob("*.yaml")
+F_YAML = sorted(Path("data/datasets").glob("*.yaml"))
 
 data = []
 for f_yaml in F_YAML:
     with open(f_yaml, "r") as stream:
-        item = yaml.load(stream, yaml.Loader)
+        item = yaml.safe_load(stream)
         is_modified = False
 
         if main_question_key not in item:

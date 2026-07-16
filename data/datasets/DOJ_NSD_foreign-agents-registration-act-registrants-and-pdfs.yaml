@@ -6,6 +6,8 @@ AI_ready_questions:
   single_file: 'No'
 agency: NSD
 department: DOJ
-description: ''
+description: >-
+  The FARA bulk-data service provides registrant information and associated
+  filing documents for the Foreign Agents Registration Act program.
 homepage: https://efile.fara.gov/ords/fara/f?p=API:BULKDATA
 title: 'Foreign Agents Registration Act : Registrants and PDFs'

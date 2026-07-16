@@ -1,7 +1,20 @@
-build:
-	python src/supplement_datasets.py
+validate:
+	python src/validate_catalog.py
+
+build: validate
 	python src/build_README.py
-	make lint
+
+verify: validate
+	python src/build_README.py --check
+
+check-urls:
+	python src/validate_catalog.py --check-urls
+
+supplement:
+	python src/supplement_datasets.py
+
+test:
+	python -m unittest discover -s tests
 
 lint:
 	black --line-length 80 src

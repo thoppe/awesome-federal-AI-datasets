@@ -1,0 +1,3 @@
+# Dependencies for the deterministic validation and README publication gate.
+pandas==2.3.0
+PyYAML==6.0.2

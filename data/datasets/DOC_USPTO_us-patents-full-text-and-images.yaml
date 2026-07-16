@@ -2,10 +2,13 @@ AI_ready_questions:
   downloadable_status: Fully Downloadable
   file_format: 'Yes'
   number_of_records: 'Yes'
-  open_access_status: Open Access
+  open_access_status: Registration required
   single_file: 'No'
 agency: USPTO
 department: DOC
-description: 'This dataset contains the full text of granted patents, including the patent's title, abstract, claims, description, and various bibliographic information. The data is available in both structured and unstructured formats. The structured data includes fields like patent number, issue date, inventors, assignees, and more. '
-homepage: https://bulkdata.uspto.gov/
+description: >-
+  This dataset contains the full text of granted patents, including the patent's
+  title, abstract, claims, description, and bibliographic information. It is
+  available in structured and unstructured forms.
+homepage: https://data.uspto.gov/
 title: 'US Patents text and images'

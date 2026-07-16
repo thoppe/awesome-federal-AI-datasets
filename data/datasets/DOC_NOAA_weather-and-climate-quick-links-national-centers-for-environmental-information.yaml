@@ -6,6 +6,8 @@ AI_ready_questions:
   single_file: Unknown
 agency: NOAA
 department: DOC
-description: ''
-homepage: https://www.ncei.noaa.gov/weather-climate-links
+description: >-
+  NCEI's weather and climate links page provides access points to NOAA climate,
+  weather, and environmental information resources.
+homepage: https://www.ncei.noaa.gov/resources/weather-climate-links
 title: 'Weather and Climate Quick Links : National Centers for Environmental Information'
