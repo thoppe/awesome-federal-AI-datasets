@@ -21,3 +21,7 @@ An active record's `next_review_at` therefore cannot be later than its next
 `make check-urls` is observational and never a release gate: publisher bot
 protections and authentication can make automated probes inconclusive. It must
 not bypass access controls.
+
+`make check-resources` applies the same observational policy to direct artifact,
+schema, and documentation links recorded in the evidence registry. It never
+downloads an artifact and is not a release gate.

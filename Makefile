@@ -10,6 +10,9 @@ verify: validate
 check-urls:
 	python src/validate_catalog.py --check-urls
 
+check-resources:
+	python src/validate_catalog.py --check-resources
+
 supplement:
 	python src/supplement_datasets.py
 

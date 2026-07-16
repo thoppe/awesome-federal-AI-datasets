@@ -324,10 +324,48 @@ def check_urls(records: list[dict[str, Any]]) -> int:
     return failures
 
 
+def check_resource_urls() -> int:
+    evidence_sheet = yaml.safe_load(EVIDENCE_PATH.read_text())
+    failures = 0
+    checked: set[str] = set()
+    for evidence in evidence_sheet["records"].values():
+        for links in evidence.get("resources", {}).values():
+            for link in links:
+                url = link["url"]
+                if url in checked:
+                    continue
+                checked.add(url)
+                request = urllib.request.Request(
+                    url, headers={"User-Agent": "catalog-resource-check/1.0"}
+                )
+                try:
+                    with urllib.request.urlopen(
+                        request, timeout=20
+                    ) as response:
+                        print(f"{response.status} {response.url} :: resource")
+                except urllib.error.HTTPError as error:
+                    print(f"{error.code} {error.url} :: resource")
+                    failures += 1
+                except urllib.error.URLError as error:
+                    print(f"UNKNOWN {url} :: resource ({error.reason})")
+                    failures += 1
+    print(
+        "Resource observations complete: "
+        f"{len(checked) - failures} reachable, "
+        f"{failures} non-2xx/unknown"
+    )
+    return failures
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--check-urls", action="store_true", help="run optional live probes"
+    )
+    parser.add_argument(
+        "--check-resources",
+        action="store_true",
+        help="probe optional resource links",
     )
     args = parser.parse_args()
     errors, records = validate()
@@ -344,6 +382,8 @@ def main() -> int:
             f"{len(records) - failures} reachable, "
             f"{failures} non-2xx/unknown"
         )
+    if args.check_resources:
+        check_resource_urls()
     return 0
 
 

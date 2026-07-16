@@ -93,7 +93,7 @@ records:
     reuse: {status: unknown, terms_url: 'https://clinicaltrials.gov/policy/terms-of-use', note: 'Reuse terms require review.'}
     resources:
       artifacts: [{url: 'https://clinicaltrials.gov/api/v2/studies/download?format=json.zip', kind: bulk_download, note: 'Official full-study JSON ZIP endpoint.'}]
-      schema: [{url: 'https://clinicaltrials.gov/api/oas/v2/ctg-oas-v2.yaml', kind: api_spec, note: 'Official OpenAPI specification.'}]
+      schema: [{url: 'https://clinicaltrials.gov/data-api/api', kind: api_spec, note: 'Official API documentation and specification entrypoint.'}]
       documentation: [{url: 'https://clinicaltrials.gov/data-api/about-api/study-data-structure', kind: documentation, note: 'Field-level study-data documentation.'}]
       updates: [{url: 'https://clinicaltrials.gov/api/v2/version', kind: status, note: 'Publisher data timestamp endpoint.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
@@ -108,7 +108,7 @@ records:
     reuse: {status: unknown, terms_url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt', note: 'Publisher terms apply.'}
     resources:
       artifacts: [{url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/', kind: archive_index, note: 'Official annual XML baseline.'}]
-      schema: [{url: 'https://dtd.nlm.nih.gov/ncbi/pubmed/out/', kind: schema, note: 'Official PubMed DTD documentation.'}]
+      schema: [{url: 'https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd', kind: schema, note: 'Official current PubMed DTD.'}]
       updates: [{url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/updatefiles/', kind: archive_index, note: 'Official daily update files.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_pubmed-central-full-text-biomedical-publications:
