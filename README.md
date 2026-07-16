@@ -7,9 +7,10 @@ This repo aims to provide a convenient platform for discovering these datasets, 
 ## Catalog status
 
 **Local verification: passed on 2026-07-16.** Last run: `make lint`, `make validate`,
-`make verify`, `make test`, and `make check-urls`; 20 manifests validated and
-20 publisher landing pages were reachable. Hosted checks are intentionally not
-used for this repository. Run the same commands locally after each major
+`make verify`, `make test`, `make check-urls`, and `make check-resources`; 20
+manifests validated, 20 publisher landing pages and 24 direct resource links
+were reachable. Hosted checks are intentionally not used for this repository.
+Run the same commands locally after each major
 catalog change; [the contracts](docs/README.md) define the required handoff.
 
 
@@ -45,4 +46,5 @@ Questions and scores for the AI dataset can be found at [AI_ready_questions.yaml
 Built with :purple_heart: by [@metasemantic](https://twitter.com/metasemantic).
 Code is linted by [black](https://github.com/psf/black) and conforms to standards by [flake8](https://github.com/PyCQA/flake8).
 New projects should be added to [data/datasets](data/datasets). Run `make validate`,
-`make build`, `make verify`, and `make test` before committing a catalog change.
+`make build`, `make verify`, `make test`, `make check-urls`, and
+`make check-resources` before committing a catalog change.
