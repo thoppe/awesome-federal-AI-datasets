@@ -6,6 +6,10 @@ records:
     source: {url: 'https://www.census.gov/programs-surveys/acs/microdata.html', note: 'Census documents public PUMS downloads and FTP access.'}
     lifecycle: {data_status: active, update_cadence: annual, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.census.gov/about/policies/privacy/data.html', note: 'Reuse terms require review.'}
+    resources:
+      artifacts: [{url: 'https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/', kind: archive_index, note: 'Official PUMS download directory.'}]
+      schema: [{url: 'https://api.census.gov/data/2024/acs/acs1/pums/variables.json', kind: schema, note: 'Official machine-readable variable definitions.'}]
+      documentation: [{url: 'https://www.census.gov/programs-surveys/acs/microdata/documentation.2024.html', kind: documentation, note: 'Official data dictionary and code-list documentation.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   DOC_NOAA_weather-and-climate-quick-links-national-centers-for-environmental-information:
     source: {url: 'https://www.ncei.noaa.gov/access/search/index', note: 'Portal documents free access; collection-specific claims remain Unknown.'}
@@ -16,16 +20,27 @@ records:
     source: {url: 'https://www.usgs.gov/landsat-missions/landsat-data-access', note: 'USGS documents no-cost Landsat access and COG GeoTIFF delivery.'}
     lifecycle: {data_status: active, update_cadence: continuous, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits', note: 'Data-specific reuse terms require review.'}
+    resources:
+      artifacts: [{url: 'https://earthexplorer.usgs.gov/', kind: query_export, note: 'Official scene search and download portal.'}]
+      schema: [{url: 'https://www.usgs.gov/landsat-missions/landsat-collection-2', kind: documentation, note: 'Official product-format documentation.'}]
+      documentation: [{url: 'https://www.usgs.gov/faqs/how-do-i-search-and-download-landsat-collection-2-data-products', kind: documentation, note: 'Official download guidance.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   DOE_NREL_end-use-load-profiles-us-building-stock:
     source: {url: 'https://data.openei.org/submissions/4520', note: 'OEDI documents public building-stock load-profile data and record count.'}
     lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
     reuse: {status: license, terms_url: 'https://creativecommons.org/licenses/by/4.0/', note: 'Publisher identifies the dataset as CC BY 4.0.'}
+    resources:
+      artifacts: [{url: 'https://data.openei.org/submissions/4520', kind: archive_index, note: 'Official OEDI submission and download entrypoint.'}]
+      documentation: [{url: 'https://data.openei.org/submissions/4520', kind: documentation, note: 'Dataset methodology and access documentation.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   EPA_EPA_air-quality-system-pre-generated-data:
     source: {url: 'https://aqs.epa.gov/aqsweb/airdata/download_files.html', note: 'EPA documents free pre-generated CSV/ZIP downloads and twice-yearly updates.'}
     lifecycle: {data_status: active, update_cadence: semiannual, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.epa.gov/web-policies-and-procedures/epa-disclaimers', note: 'Reuse terms require review.'}
+    resources:
+      artifacts: [{url: 'https://aqs.epa.gov/aqsweb/airdata/download_files.html', kind: archive_index, note: 'Official CSV and ZIP download index.'}]
+      schema: [{url: 'https://aqs.epa.gov/aqsweb/documents/AQS_Data_Dictionary.html', kind: data_dictionary, note: 'AQS field definitions.'}]
+      documentation: [{url: 'https://aqs.epa.gov/aqsweb/documents/about_aqs_data.html', kind: documentation, note: 'Official AQS documentation.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   DOC_USPTO_us-patents-full-text-and-images:
     source: {url: 'https://data.uspto.gov/apis/bulk-data/search', note: 'ODP documents raw public bulk data search and account/API-key requirements; count and packaging remain Unknown.'}
@@ -76,6 +91,11 @@ records:
     source: {url: 'https://clinicaltrials.gov/about-site/trends-charts', note: 'Publisher reports 593,857 studies and public CSV, JSON, and RIS download support.'}
     lifecycle: {data_status: active, update_cadence: daily_weekdays, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://clinicaltrials.gov/policy/terms-of-use', note: 'Reuse terms require review.'}
+    resources:
+      artifacts: [{url: 'https://clinicaltrials.gov/api/v2/studies/download?format=json.zip', kind: bulk_download, note: 'Official full-study JSON ZIP endpoint.'}]
+      schema: [{url: 'https://clinicaltrials.gov/api/oas/v2/ctg-oas-v2.yaml', kind: api_spec, note: 'Official OpenAPI specification.'}]
+      documentation: [{url: 'https://clinicaltrials.gov/data-api/about-api/study-data-structure', kind: documentation, note: 'Field-level study-data documentation.'}]
+      updates: [{url: 'https://clinicaltrials.gov/api/v2/version', kind: status, note: 'Publisher data timestamp endpoint.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_exporter-nih-grant-funding:
     source: {url: 'https://reporter.nih.gov/exporter/', note: 'Publisher documents public CSV bulk files, data dictionaries, and consolidated annual project files.'}
@@ -86,19 +106,33 @@ records:
     source: {url: 'https://pubmed.ncbi.nlm.nih.gov/', note: 'Publisher reports more than 40 million citations and documents annual XML baseline and daily updates.'}
     lifecycle: {data_status: active, update_cadence: annual_and_daily, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt', note: 'Publisher terms apply.'}
+    resources:
+      artifacts: [{url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/', kind: archive_index, note: 'Official annual XML baseline.'}]
+      schema: [{url: 'https://dtd.nlm.nih.gov/ncbi/pubmed/out/', kind: schema, note: 'Official PubMed DTD documentation.'}]
+      updates: [{url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/updatefiles/', kind: archive_index, note: 'Official daily update files.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_pubmed-central-full-text-biomedical-publications:
     source: {url: 'https://pmc.ncbi.nlm.nih.gov/tools/ftp/', note: 'Publisher documents article-package downloads and an August 2026 legacy-FTP transition; reuse varies by article.'}
     lifecycle: {data_status: active, update_cadence: semiannual_and_daily, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://pmc.ncbi.nlm.nih.gov/about/copyright/', note: 'License varies by article.'}
+    resources:
+      artifacts: [{url: 'https://pmc-oa-opendata.s3.amazonaws.com/', kind: archive_index, note: 'Official AWS article-dataset access path replacing legacy FTP.'}]
+      documentation: [{url: 'https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/', kind: documentation, note: 'Official AWS transition and access documentation.'}]
+      updates: [{url: 'https://pmc.ncbi.nlm.nih.gov/tools/oa-service/', kind: api, note: 'Official per-article licensing and update metadata service.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   Legislative_GPO_us-federal-register:
     source: {url: 'https://www.govinfo.gov/help/fr', note: 'GovInfo documents XML bulk ZIP downloads by year, volume, or month.'}
     lifecycle: {data_status: active, update_cadence: daily, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.govinfo.gov/about/policies', note: 'Reuse terms require review.'}
+    resources:
+      artifacts: [{url: 'https://www.govinfo.gov/bulkdata/FR', kind: archive_index, note: 'Official Federal Register XML bulk-data tree.'}]
+      schema: [{url: 'https://www.govinfo.gov/bulkdata/FR/resources/FDsys_OFR-XML_User-Guide-v1.pdf', kind: documentation, note: 'Official Federal Register XML guide.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   USDA_ARS_fooddata-central-full-download:
     source: {url: 'https://fdc.nal.usda.gov/download-datasets/', note: 'USDA documents public full CSV and JSON archives with field descriptions.'}
     lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.usda.gov/plain-writing/terms-use', note: 'Reuse terms require review.'}
+    resources:
+      artifacts: [{url: 'https://fdc.nal.usda.gov/download-datasets/', kind: bulk_download, note: 'Official full CSV and JSON download entrypoint.'}]
+      schema: [{url: 'https://fdc.nal.usda.gov/data-documentation.html', kind: documentation, note: 'Official FoodData Central data documentation.'}]
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}

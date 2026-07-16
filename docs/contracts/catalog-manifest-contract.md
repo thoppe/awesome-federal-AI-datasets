@@ -32,3 +32,11 @@ missing, orphaned, malformed, or overdue evidence record.
 
 For active or unknown-lifecycle records, `next_review_at` is the next required
 90-day link-health review; it is not the publisher's annual release date.
+
+## Resource-link enrichment
+
+Evidence records may add `resources` for direct artifact indexes, bulk-download
+entrypoints, schemas/data dictionaries, and publisher documentation. Each link
+must be an official HTTP(S) URL with a concise note describing what a user can
+obtain there. These links complement the discovery homepage and keep actionable
+access information out of the lightweight manifests.

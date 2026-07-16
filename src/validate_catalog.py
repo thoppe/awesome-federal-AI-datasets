@@ -209,6 +209,34 @@ def validate() -> tuple[list[str], list[dict[str, Any]]]:
                 reuse.get("terms_url")
             ):
                 errors.append(f"{label}: reuse requires terms_url")
+            resources = evidence.get("resources", {})
+            if not isinstance(resources, dict):
+                errors.append(f"{label}: resources must be a mapping")
+            else:
+                for resource_type, links in resources.items():
+                    if not isinstance(links, list) or not links:
+                        errors.append(
+                            f"{label}: resource {resource_type!r} "
+                            "requires links"
+                        )
+                        continue
+                    for link in links:
+                        if not isinstance(link, dict) or not valid_http_url(
+                            link.get("url")
+                        ):
+                            errors.append(
+                                f"{label}: resource {resource_type!r} "
+                                "has invalid URL"
+                            )
+                        if (
+                            not isinstance(link, dict)
+                            or not isinstance(link.get("note"), str)
+                            or not link["note"].strip()
+                        ):
+                            errors.append(
+                                f"{label}: resource {resource_type!r} "
+                                "requires note"
+                            )
             if (
                 not isinstance(criteria, dict)
                 or set(criteria) != set(allowed)
