@@ -4,6 +4,14 @@ A list of high quality accessible AI-ready datasets from the US Federal governme
 
 This repo aims to provide a convenient platform for discovering these datasets, ensuring their accessibility, and upholding a standard of quality as defined by an objective criteria.
 
+## Catalog status
+
+**Local verification: passed on 2026-07-16.** Last run: `make lint`, `make validate`,
+`make verify`, `make test`, and `make check-urls`; 15 manifests validated and
+15 publisher landing pages were reachable. Hosted checks are intentionally not
+used for this repository. Run the same commands locally after each major
+catalog change; [the contracts](docs/README.md) define the required handoff.
+
 
 | Status| Dept. | Agency  | Title |
 | ----  | ----  | ----    | ----- |
@@ -31,4 +39,5 @@ Questions and scores for the AI dataset can be found at [AI_ready_questions.yaml
 
 Built with :purple_heart: by [@metasemantic](https://twitter.com/metasemantic).
 Code is linted by [black](https://github.com/psf/black) and conforms to standards by [flake8](https://github.com/PyCQA/flake8).
-New projects should be added to [data/datasets](data/datasets). To help build the YAML entry run `make add`, `make build`, then submit a PR.
+New projects should be added to [data/datasets](data/datasets). Run `make validate`,
+`make build`, `make verify`, and `make test` before committing a catalog change.

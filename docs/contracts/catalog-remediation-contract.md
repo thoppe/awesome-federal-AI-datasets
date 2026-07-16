@@ -16,7 +16,7 @@ is recorded in [publisher-verification-2026-07-16.md](../publisher-verification-
 | R7 | COVID surveillance source is end-of-series | Complete | Catalog description now identifies it as historical, including CDC's discontinuation and temporal-applicability dates. |
 | R8 | NOAA/FARA descriptions blank; GSA agency blank | Complete | NOAA/FARA descriptions are complete; GSA Technology Transformation Services is now a registry-backed Regulations.gov agency attribution. |
 | R9 | Legacy scores lack dated evidence | Complete | All 15 records now have criterion coverage, source notes, reuse terms, lifecycle status, and review dates in the v2 evidence registry. Unsupported claims are `Unknown`. |
-| R10 | No automated release gate/CI | Complete | The first GitHub Actions run passed `make verify` and `make test`; CI continues to enforce the evidence registry. |
+| R10 | No automated release gate/CI | Complete | The local release gate runs `make verify` and `make test` during each major change handoff; hosted checks are intentionally not used. |
 
 Each remediation record must name an owner, status, evidence URL or command,
 verification date, and next review date when it is operationalized.

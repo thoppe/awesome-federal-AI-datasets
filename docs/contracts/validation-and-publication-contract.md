@@ -8,8 +8,9 @@ The offline release gate is deterministic and non-interactive:
    if committed `README.md` differs.
 3. `make build` first validates, then writes the generated README. It never
    invokes the interactive supplementation tool.
-4. `make test` runs the harness tests. The committed GitHub Actions workflow
-   runs `make verify` and `make test` on pull requests and `main` pushes.
+4. `make test` runs the harness tests. Checks are triggered in this workspace
+   as part of each major change handoff; this repository intentionally has no
+   hosted workflow.
 
 Validation errors are aggregated with paths and fields; a single malformed
 record must not hide later defects. Generated README changes must be reviewed
