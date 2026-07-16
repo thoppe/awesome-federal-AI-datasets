@@ -1,0 +1,15 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: Unknown
+  number_of_records: 'Yes'
+  open_access_status: Open Access
+  single_file: 'No'
+agency: NREL
+department: DOE
+description: >-
+  DOE-funded NREL end-use load profiles provide calibrated 15-minute simulated
+  residential and commercial building-load data across United States climate
+  regions.
+homepage: https://data.openei.org/submissions/4520
+evidence_id: DOE_NREL_end-use-load-profiles-us-building-stock
+title: End-use load profiles for the United States building stock

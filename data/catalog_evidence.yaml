@@ -2,13 +2,33 @@ schema_version: 2
 verified_at: '2026-07-16'
 verified_by: catalog-maintainer
 records:
+  DOC_CENSUS_american-community-survey-public-use-microdata-sample:
+    source: {url: 'https://www.census.gov/programs-surveys/acs/microdata.html', note: 'Census documents public PUMS downloads and FTP access.'}
+    lifecycle: {data_status: active, update_cadence: annual, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.census.gov/about/policies/privacy/data.html', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   DOC_NOAA_weather-and-climate-quick-links-national-centers-for-environmental-information:
     source: {url: 'https://www.ncei.noaa.gov/access/search/index', note: 'Portal documents free access; collection-specific claims remain Unknown.'}
     lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.noaa.gov/information-technology/open-data-dissemination-policy', note: 'Collection-specific terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  DOI_USGS_landsat-collection-2:
+    source: {url: 'https://www.usgs.gov/landsat-missions/landsat-data-access', note: 'USGS documents no-cost Landsat access and COG GeoTIFF delivery.'}
+    lifecycle: {data_status: active, update_cadence: continuous, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits', note: 'Data-specific reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  DOE_NREL_end-use-load-profiles-us-building-stock:
+    source: {url: 'https://data.openei.org/submissions/4520', note: 'OEDI documents public building-stock load-profile data and record count.'}
+    lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: license, terms_url: 'https://creativecommons.org/licenses/by/4.0/', note: 'Publisher identifies the dataset as CC BY 4.0.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  EPA_EPA_air-quality-system-pre-generated-data:
+    source: {url: 'https://aqs.epa.gov/aqsweb/airdata/download_files.html', note: 'EPA documents free pre-generated CSV/ZIP downloads and twice-yearly updates.'}
+    lifecycle: {data_status: active, update_cadence: semiannual, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.epa.gov/web-policies-and-procedures/epa-disclaimers', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   DOC_USPTO_us-patents-full-text-and-images:
-    source: {url: 'https://data.uspto.gov/apis/bulk-data/search', note: 'ODP account requirement verified; product-specific scope remains Unknown.'}
+    source: {url: 'https://data.uspto.gov/apis/bulk-data/search', note: 'ODP documents raw public bulk data search and account/API-key requirements; count and packaging remain Unknown.'}
     lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.uspto.gov/terms-use-uspto-websites', note: 'Government work may have third-party exceptions.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
@@ -33,7 +53,7 @@ records:
     reuse: {status: unknown, terms_url: 'https://www.cdc.gov/other/data-access.html', note: 'Dataset-specific reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_CDC_vaccine-adverse-event-reporting-system-vaers:
-    source: {url: 'https://vaers.hhs.gov/data/datasets.html', note: 'Publisher documents CSV/ZIP files and cautions that reports do not establish causality.'}
+    source: {url: 'https://vaers.hhs.gov/data/datasets.html', note: 'Publisher documents CSV/ZIP downloads, manual verification-code friction, and non-causality cautions.'}
     lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://vaers.hhs.gov/terms.html', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
@@ -43,7 +63,7 @@ records:
     reuse: {status: unknown, terms_url: 'https://www.cms.gov/about-cms/information-systems/privacy', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_FDA_drug-adverse-events-device-adverse-events-animal-veterinary-adverse-events:
-    source: {url: 'https://open.fda.gov/apis/downloads/', note: 'openFDA documents zipped JSON downloads; endpoint scope is composite.'}
+    source: {url: 'https://open.fda.gov/about/statistics/', note: 'openFDA documents multi-million-record adverse-event collections; endpoint scope is composite.'}
     lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://open.fda.gov/terms/', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
@@ -53,22 +73,22 @@ records:
     reuse: {status: unknown, terms_url: 'https://www.nih.gov/about-nih/what-we-do/website-policies', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_clinical-trials:
-    source: {url: 'https://clinicaltrials.gov/data-api/how-download-study-records', note: 'Publisher documents public API and downloadable CSV, JSON, and RIS records.'}
+    source: {url: 'https://clinicaltrials.gov/about-site/trends-charts', note: 'Publisher reports 593,857 studies and public CSV, JSON, and RIS download support.'}
     lifecycle: {data_status: active, update_cadence: daily_weekdays, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://clinicaltrials.gov/policy/terms-of-use', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_exporter-nih-grant-funding:
-    source: {url: 'https://reporter.nih.gov/exporter', note: 'Publisher landing page is available; legacy export scope requires successor verification.'}
-    lifecycle: {data_status: unknown, update_cadence: unknown, next_review_at: '2026-10-14'}
+    source: {url: 'https://reporter.nih.gov/exporter/', note: 'Publisher documents public CSV bulk files, data dictionaries, and consolidated annual project files.'}
+    lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.nih.gov/about-nih/what-we-do/website-policies', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_pubmed-biomedical-publication-abstract:
-    source: {url: 'https://pubmed.ncbi.nlm.nih.gov/download/', note: 'Publisher documents annual XML baseline and daily update files.'}
+    source: {url: 'https://pubmed.ncbi.nlm.nih.gov/', note: 'Publisher reports more than 40 million citations and documents annual XML baseline and daily updates.'}
     lifecycle: {data_status: active, update_cadence: annual_and_daily, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt', note: 'Publisher terms apply.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_NIH_pubmed-central-full-text-biomedical-publications:
-    source: {url: 'https://pmc.ncbi.nlm.nih.gov/tools/ftp/', note: 'Publisher documents article-package downloads; reuse varies by article.'}
+    source: {url: 'https://pmc.ncbi.nlm.nih.gov/tools/ftp/', note: 'Publisher documents article-package downloads and an August 2026 legacy-FTP transition; reuse varies by article.'}
     lifecycle: {data_status: active, update_cadence: semiannual_and_daily, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://pmc.ncbi.nlm.nih.gov/about/copyright/', note: 'License varies by article.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
@@ -76,4 +96,9 @@ records:
     source: {url: 'https://www.govinfo.gov/help/fr', note: 'GovInfo documents XML bulk ZIP downloads by year, volume, or month.'}
     lifecycle: {data_status: active, update_cadence: daily, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.govinfo.gov/about/policies', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  USDA_ARS_fooddata-central-full-download:
+    source: {url: 'https://fdc.nal.usda.gov/download-datasets/', note: 'USDA documents public full CSV and JSON archives with field descriptions.'}
+    lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.usda.gov/plain-writing/terms-use', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}

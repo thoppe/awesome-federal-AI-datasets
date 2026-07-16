@@ -1,0 +1,14 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: 'Yes'
+  number_of_records: 'Yes'
+  open_access_status: Open Access
+  single_file: 'No'
+agency: USGS
+department: DOI
+description: >-
+  Landsat Collection 2 provides a global archive of Level-1 and Level-2 Earth
+  observation imagery and structured scene metadata.
+homepage: https://www.usgs.gov/landsat-missions/landsat-collection-2
+evidence_id: DOI_USGS_landsat-collection-2
+title: Landsat Collection 2

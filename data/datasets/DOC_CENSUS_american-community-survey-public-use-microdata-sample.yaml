@@ -1,0 +1,14 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: 'Yes'
+  number_of_records: 'Yes'
+  open_access_status: Open Access
+  single_file: 'No'
+agency: CENSUS
+department: DOC
+description: >-
+  American Community Survey Public Use Microdata Sample files provide
+  untabulated person and housing-unit survey microdata.
+homepage: https://www.census.gov/programs-surveys/acs/microdata.html
+evidence_id: DOC_CENSUS_american-community-survey-public-use-microdata-sample
+title: American Community Survey Public Use Microdata Sample

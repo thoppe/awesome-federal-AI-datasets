@@ -1,0 +1,14 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: 'Yes'
+  number_of_records: Unknown
+  open_access_status: Open Access
+  single_file: 'No'
+agency: ARS
+department: USDA
+description: >-
+  FoodData Central provides USDA food composition, nutrient, and branded-food
+  data through full CSV and JSON downloads.
+homepage: https://fdc.nal.usda.gov/download-datasets/
+evidence_id: USDA_ARS_fooddata-central-full-download
+title: FoodData Central full download

@@ -1,0 +1,15 @@
+AI_ready_questions:
+  downloadable_status: Fully Downloadable
+  file_format: 'Yes'
+  number_of_records: 'Yes'
+  open_access_status: Open Access
+  single_file: 'No'
+agency: EPA
+department: EPA
+description: >-
+  EPA Air Quality System pre-generated files provide nationwide ambient-monitor
+  observations, including annual, daily, and hourly aggregations by parameter
+  and year.
+homepage: https://aqs.epa.gov/aqsweb/airdata/download_files.html
+evidence_id: EPA_EPA_air-quality-system-pre-generated-data
+title: Air Quality System pre-generated data

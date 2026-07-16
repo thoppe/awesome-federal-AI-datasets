@@ -19,7 +19,7 @@ class CatalogHarnessTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("15 manifests", result.stdout)
+        self.assertIn("20 manifests", result.stdout)
 
     def test_readme_is_current(self):
         result = subprocess.run(

@@ -2,6 +2,7 @@ agency,name,department,homepage
 AMS,Agricultural Marketing Service,USDA,https://www.ams.usda.gov/
 APHIS,Animal and Plant Health Inspection Service,USDA,https://www.aphis.usda.gov/
 ARS,Agricultural Research Service,USDA,https://www.ars.usda.gov/
+EPA,Environmental Protection Agency,EPA,https://www.epa.gov/
 CNPP,Center for Nutrition Policy and Promotion,USDA,https://www.cnpp.usda.gov/
 ERS,Economic Research Service,USDA,https://www.ers.usda.gov/
 FAS,Foreign Agricultural Service,USDA,https://www.fas.usda.gov/
@@ -200,6 +201,7 @@ SIGTARP,Office of the Special Inspector General for the Troubled Asset Relief Pr
 TIGTA,Treasury Inspector General for Tax Administration,TREAS,https://www.treasury.gov/tigta/
 TTB,Alcohol and Tobacco Tax and Trade Bureau,TREAS,https://www.ttb.gov/
 NCA,National Cemetery Administration,VA,https://www.cem.va.gov/
+NREL,National Renewable Energy Laboratory,DOE,https://www.nrel.gov/
 OSDBU,Office of Small and Disadvantaged Business Utilization,VA,https://www.va.gov/OSDBU/
 VBA,Veterans Benefits Administration,VA,https://www.benefits.va.gov/benefits/
 VHA,Veterans Health Administration,VA,https://www.va.gov/health/
