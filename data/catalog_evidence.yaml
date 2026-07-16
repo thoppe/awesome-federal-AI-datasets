@@ -1,0 +1,79 @@
+schema_version: 2
+verified_at: '2026-07-16'
+verified_by: catalog-maintainer
+records:
+  DOC_NOAA_weather-and-climate-quick-links-national-centers-for-environmental-information:
+    source: {url: 'https://www.ncei.noaa.gov/access/search/index', note: 'Portal documents free access; collection-specific claims remain Unknown.'}
+    lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.noaa.gov/information-technology/open-data-dissemination-policy', note: 'Collection-specific terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  DOC_USPTO_us-patents-full-text-and-images:
+    source: {url: 'https://data.uspto.gov/apis/bulk-data/search', note: 'ODP account requirement verified; product-specific scope remains Unknown.'}
+    lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.uspto.gov/terms-use-uspto-websites', note: 'Government work may have third-party exceptions.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  DOC_USPTO_us-trademarks-filings-and-registration-images:
+    source: {url: 'https://data.uspto.gov/apis/bulk-data/search', note: 'ODP account requirement verified; product-specific scope remains Unknown.'}
+    lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.uspto.gov/terms-use-uspto-websites', note: 'Government work may have third-party exceptions.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  DOJ_NSD_foreign-agents-registration-act-registrants-and-pdfs:
+    source: {url: 'https://efile.fara.gov/ords/fara/f?p=API:BULKDATA', note: 'Publisher documents daily CSV/XML bulk ZIP files.'}
+    lifecycle: {data_status: active, update_cadence: daily, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.justice.gov/legalpolicies', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  GSA__regulations-gov-federal-rulemaking-process:
+    source: {url: 'https://open.gsa.gov/api/regulationsgov/', note: 'GSA documents key-backed JSON API; permanent bulk download remains pending.'}
+    lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.regulations.gov/privacy-notice', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_CDC_covid-19-case-surveillance-public-use-data-with-geography:
+    source: {url: 'https://data.cdc.gov/api/views/n8mc-b4w4', note: 'CDC metadata documents public historical data, 106M rows, and end of updates.'}
+    lifecycle: {data_status: historical, update_cadence: not_updated, next_review_at: '2027-07-16'}
+    reuse: {status: unknown, terms_url: 'https://www.cdc.gov/other/data-access.html', note: 'Dataset-specific reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_CDC_vaccine-adverse-event-reporting-system-vaers:
+    source: {url: 'https://vaers.hhs.gov/data/datasets.html', note: 'Publisher documents CSV/ZIP files and cautions that reports do not establish causality.'}
+    lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://vaers.hhs.gov/terms.html', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_CMS_open-payments-dataset-downloads:
+    source: {url: 'https://www.cms.gov/priorities/key-initiatives/open-payments/data/explore', note: 'CMS documents annual public files, CSV/ZIP format, and record counts.'}
+    lifecycle: {data_status: active, update_cadence: annual, next_review_at: '2027-07-16'}
+    reuse: {status: unknown, terms_url: 'https://www.cms.gov/about-cms/information-systems/privacy', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_FDA_drug-adverse-events-device-adverse-events-animal-veterinary-adverse-events:
+    source: {url: 'https://open.fda.gov/apis/downloads/', note: 'openFDA documents zipped JSON downloads; endpoint scope is composite.'}
+    lifecycle: {data_status: active, update_cadence: irregular, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://open.fda.gov/terms/', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_NIH_bibliometric-publication-citation-graph-links:
+    source: {url: 'https://support.icite.nih.gov/hc/en-us/articles/9513563045787-Bulk-Data-and-API', note: 'NIH documents public resource endpoints and database snapshots.'}
+    lifecycle: {data_status: active, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.nih.gov/about-nih/what-we-do/website-policies', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_NIH_clinical-trials:
+    source: {url: 'https://clinicaltrials.gov/data-api/how-download-study-records', note: 'Publisher documents public API and downloadable CSV, JSON, and RIS records.'}
+    lifecycle: {data_status: active, update_cadence: daily_weekdays, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://clinicaltrials.gov/policy/terms-of-use', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_NIH_exporter-nih-grant-funding:
+    source: {url: 'https://reporter.nih.gov/exporter', note: 'Publisher landing page is available; legacy export scope requires successor verification.'}
+    lifecycle: {data_status: unknown, update_cadence: unknown, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.nih.gov/about-nih/what-we-do/website-policies', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_NIH_pubmed-biomedical-publication-abstract:
+    source: {url: 'https://pubmed.ncbi.nlm.nih.gov/download/', note: 'Publisher documents annual XML baseline and daily update files.'}
+    lifecycle: {data_status: active, update_cadence: annual_and_daily, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt', note: 'Publisher terms apply.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  HHS_NIH_pubmed-central-full-text-biomedical-publications:
+    source: {url: 'https://pmc.ncbi.nlm.nih.gov/tools/ftp/', note: 'Publisher documents article-package downloads; reuse varies by article.'}
+    lifecycle: {data_status: active, update_cadence: semiannual_and_daily, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://pmc.ncbi.nlm.nih.gov/about/copyright/', note: 'License varies by article.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
+  Legislative_GPO_us-federal-register:
+    source: {url: 'https://www.govinfo.gov/help/fr', note: 'GovInfo documents XML bulk ZIP downloads by year, volume, or month.'}
+    lifecycle: {data_status: active, update_cadence: daily, next_review_at: '2026-10-14'}
+    reuse: {status: unknown, terms_url: 'https://www.govinfo.gov/about/policies', note: 'Reuse terms require review.'}
+    criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}

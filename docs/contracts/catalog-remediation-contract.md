@@ -15,8 +15,8 @@ is recorded in [publisher-verification-2026-07-16.md](../publisher-verification-
 | R6 | ClinicalTrials, PMC, and NOAA redirect | Complete | Canonical landing pages were updated and must remain covered by `make check-urls`. |
 | R7 | COVID surveillance source is end-of-series | Complete | Catalog description now identifies it as historical, including CDC's discontinuation and temporal-applicability dates. |
 | R8 | NOAA/FARA descriptions blank; GSA agency blank | Complete | NOAA/FARA descriptions are complete; GSA Technology Transformation Services is now a registry-backed Regulations.gov agency attribution. |
-| R9 | Legacy scores lack dated evidence | Open | Migrate every claim to the v2 scoring contract before presenting it as verified. |
-| R10 | No automated release gate/CI | In progress | The workflow and pinned gate dependencies are committed locally; its first remote run must pass `make verify` and `make test`. |
+| R9 | Legacy scores lack dated evidence | Complete | All 15 records now have criterion coverage, source notes, reuse terms, lifecycle status, and review dates in the v2 evidence registry. Unsupported claims are `Unknown`. |
+| R10 | No automated release gate/CI | Complete | The first GitHub Actions run passed `make verify` and `make test`; CI continues to enforce the evidence registry. |
 
 Each remediation record must name an owner, status, evidence URL or command,
 verification date, and next review date when it is operationalized.

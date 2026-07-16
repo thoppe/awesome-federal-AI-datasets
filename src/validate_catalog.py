@@ -10,6 +10,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
+from datetime import date
 
 import yaml
 
@@ -19,6 +20,7 @@ DATASETS = ROOT / "data" / "datasets"
 QUESTIONS_PATH = ROOT / "src" / "AI_ready_questions.yaml"
 DEPARTMENTS_PATH = ROOT / "data" / "acronyms" / "department.csv"
 AGENCIES_PATH = ROOT / "data" / "acronyms" / "agency.csv"
+EVIDENCE_PATH = ROOT / "data" / "catalog_evidence.yaml"
 REQUIRED_FIELDS = {
     "AI_ready_questions",
     "agency",
@@ -65,10 +67,23 @@ def valid_http_url(value: Any) -> bool:
 def validate() -> tuple[list[str], list[dict[str, Any]]]:
     errors: list[str] = []
     question_sheet = load_yaml(QUESTIONS_PATH, errors)
+    evidence_sheet = load_yaml(EVIDENCE_PATH, errors)
     departments = load_csv(DEPARTMENTS_PATH, errors)
     agencies = load_csv(AGENCIES_PATH, errors)
     if not isinstance(question_sheet, dict):
         errors.append("src/AI_ready_questions.yaml: expected a mapping")
+        return errors, []
+    if (
+        not isinstance(evidence_sheet, dict)
+        or evidence_sheet.get("schema_version") != 2
+    ):
+        errors.append(
+            "data/catalog_evidence.yaml: expected schema_version 2 mapping"
+        )
+        return errors, []
+    evidence_records = evidence_sheet.get("records")
+    if not isinstance(evidence_records, dict):
+        errors.append("data/catalog_evidence.yaml.records: expected mapping")
         return errors, []
 
     questions = question_sheet.get("AI_ready_questions")
@@ -148,10 +163,61 @@ def validate() -> tuple[list[str], list[dict[str, Any]]]:
                 errors.append(f"{path.relative_to(ROOT)}: expected mapping")
             continue
         label = str(path.relative_to(ROOT))
-        if set(record) != REQUIRED_FIELDS:
+        if set(record) != REQUIRED_FIELDS | {"evidence_id"}:
             errors.append(
-                f"{label}: fields must be exactly {sorted(REQUIRED_FIELDS)}"
+                f"{label}: fields must be exactly "
+                f"{sorted(REQUIRED_FIELDS | {'evidence_id'})}"
             )
+        evidence_id = record.get("evidence_id")
+        if evidence_id != path.stem:
+            errors.append(
+                f"{label}.evidence_id: must equal manifest filename stem"
+            )
+        evidence = evidence_records.get(evidence_id)
+        if not isinstance(evidence, dict):
+            errors.append(f"{label}.evidence_id: missing evidence record")
+        else:
+            source = evidence.get("source")
+            lifecycle = evidence.get("lifecycle")
+            reuse = evidence.get("reuse")
+            criteria = evidence.get("criteria")
+            if not isinstance(source, dict) or not valid_http_url(
+                source.get("url")
+            ):
+                errors.append(
+                    f"{label}: evidence source requires an HTTP(S) URL"
+                )
+            if (
+                not isinstance(source, dict)
+                or not isinstance(source.get("note"), str)
+                or not source["note"].strip()
+            ):
+                errors.append(
+                    f"{label}: evidence source requires a non-empty note"
+                )
+            if not isinstance(lifecycle, dict) or lifecycle.get(
+                "data_status"
+            ) not in {"active", "historical", "retired", "unknown"}:
+                errors.append(f"{label}: invalid lifecycle data_status")
+            if not isinstance(lifecycle, dict) or not isinstance(
+                lifecycle.get("next_review_at"), str
+            ):
+                errors.append(f"{label}: lifecycle requires next_review_at")
+            elif lifecycle["next_review_at"] < date.today().isoformat():
+                errors.append(f"{label}: lifecycle review is overdue")
+            if not isinstance(reuse, dict) or not valid_http_url(
+                reuse.get("terms_url")
+            ):
+                errors.append(f"{label}: reuse requires terms_url")
+            if (
+                not isinstance(criteria, dict)
+                or set(criteria) != set(allowed)
+                or set(criteria.values()) != {"source"}
+            ):
+                errors.append(
+                    f"{label}: evidence criteria must cover every score "
+                    "with source evidence"
+                )
         for field in ("title", "description", "department", "agency"):
             if not isinstance(record.get(field), str):
                 errors.append(f"{label}.{field}: expected string")
@@ -197,6 +263,14 @@ def validate() -> tuple[list[str], list[dict[str, Any]]]:
         manifests.append(record)
     if not manifests:
         errors.append("data/datasets: no manifest files found")
+    unused_evidence = set(evidence_records) - {
+        item.get("evidence_id") for item in manifests
+    }
+    if unused_evidence:
+        errors.append(
+            "data/catalog_evidence.yaml: unused records "
+            f"{sorted(unused_evidence)}"
+        )
     return errors, manifests
 
 

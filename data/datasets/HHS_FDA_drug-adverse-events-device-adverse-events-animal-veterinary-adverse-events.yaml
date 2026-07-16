@@ -1,11 +1,12 @@
 AI_ready_questions:
   downloadable_status: Fully Downloadable
   file_format: 'Yes'
-  number_of_records: 'Yes'
+  number_of_records: Unknown
   open_access_status: Open Access
   single_file: 'No'
 agency: FDA
 department: HHS
 description: 'FDA (U.S. Food and Drug Administration) maintains several databases related to adverse events involving drugs, medical devices, animal products, and veterinary medicine. '
 homepage: https://open.fda.gov/data/downloads/
+evidence_id: HHS_FDA_drug-adverse-events-device-adverse-events-animal-veterinary-adverse-events
 title: Drug, Device, Animal, and Veterinary Adverse Events

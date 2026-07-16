@@ -12,4 +12,5 @@ description: >-
   product scope, artifact format, and download behavior require authenticated
   product-level verification.
 homepage: https://data.uspto.gov/
+evidence_id: DOC_USPTO_us-patents-full-text-and-images
 title: 'US Patents text and images'

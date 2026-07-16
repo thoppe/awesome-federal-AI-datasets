@@ -1,7 +1,7 @@
 AI_ready_questions:
   downloadable_status: Fully Downloadable
-  file_format: 'No'
-  number_of_records: 'No'
+  file_format: 'Yes'
+  number_of_records: Unknown
   open_access_status: Open Access
   single_file: 'No'
 agency: NSD
@@ -10,4 +10,5 @@ description: >-
   The FARA bulk-data service provides registrant information and associated
   filing documents for the Foreign Agents Registration Act program.
 homepage: https://efile.fara.gov/ords/fara/f?p=API:BULKDATA
+evidence_id: DOJ_NSD_foreign-agents-registration-act-registrants-and-pdfs
 title: 'Foreign Agents Registration Act : Registrants and PDFs'

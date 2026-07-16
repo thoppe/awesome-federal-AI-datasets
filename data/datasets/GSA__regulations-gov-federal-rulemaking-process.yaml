@@ -1,7 +1,7 @@
 AI_ready_questions:
   downloadable_status: Not Downloadable
   file_format: 'Yes'
-  number_of_records: 'Yes'
+  number_of_records: Unknown
   open_access_status: Registration required
   single_file: 'No'
 agency: TTS
@@ -12,4 +12,5 @@ description: >-
   Its documented public API requires an API key; no permanent bulk-download
   solution is currently confirmed.
 homepage: https://open.gsa.gov/api/regulationsgov/
+evidence_id: GSA__regulations-gov-federal-rulemaking-process
 title: Regulations.gov, Federal rulemaking process

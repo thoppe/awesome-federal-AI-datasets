@@ -23,3 +23,4 @@ is complete.
 - [Remediation](contracts/catalog-remediation-contract.md)
 - [2026-07-16 baseline](quality-assessment-baseline-2026-07-16.md)
 - [Phase 1 publisher verification](publisher-verification-2026-07-16.md)
+- [v2 catalog evidence registry](../data/catalog_evidence.yaml)
