@@ -29,3 +29,6 @@ five readiness criteria. The criterion values remain in the manifest and are
 accepted only when the evidence registry covers each one. `Unknown` is an
 honest, evidence-backed result—not a passing score. The validator rejects a
 missing, orphaned, malformed, or overdue evidence record.
+
+For active or unknown-lifecycle records, `next_review_at` is the next required
+90-day link-health review; it is not the publisher's annual release date.

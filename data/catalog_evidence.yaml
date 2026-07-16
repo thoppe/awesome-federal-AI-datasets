@@ -39,7 +39,7 @@ records:
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_CMS_open-payments-dataset-downloads:
     source: {url: 'https://www.cms.gov/priorities/key-initiatives/open-payments/data/explore', note: 'CMS documents annual public files, CSV/ZIP format, and record counts.'}
-    lifecycle: {data_status: active, update_cadence: annual, next_review_at: '2027-07-16'}
+    lifecycle: {data_status: active, update_cadence: annual, next_review_at: '2026-10-14'}
     reuse: {status: unknown, terms_url: 'https://www.cms.gov/about-cms/information-systems/privacy', note: 'Reuse terms require review.'}
     criteria: {open_access_status: source, downloadable_status: source, file_format: source, single_file: source, number_of_records: source}
   HHS_FDA_drug-adverse-events-device-adverse-events-animal-veterinary-adverse-events:

@@ -13,6 +13,11 @@ or `unknown`.
   Broken records need a replacement, historical classification, or removal
   decision within 14 days.
 
+The 90/365-day link-health recheck is a minimum operational cadence, independent
+of a publisher's release cadence or a longer-form content/evidence assessment.
+An active record's `next_review_at` therefore cannot be later than its next
+90-day link-health review. Historical records may use the 365-day cadence.
+
 `make check-urls` is observational and never a release gate: publisher bot
 protections and authentication can make automated probes inconclusive. It must
 not bypass access controls.
